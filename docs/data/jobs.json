@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "lis-jobs (서울·경기 사서·기록관리 채용 수집기)",
-    "collected_at": "2026-10-25 05:25",
+    "collected_at": "2026-10-26 05:23",
     "job_count": 19,
     "failures": [],
     "unreadable": [],
@@ -23,7 +23,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55151877",
       "firstSeen": "2026-09-30",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:04:48+09:00",
+      "scrapedAt": "2026-10-26T05:04:26+09:00",
       "isNew": false
     },
     {
@@ -37,15 +37,31 @@
       "posted": "2026-10-19",
       "deadline": "2026-11-04",
       "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35751&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
-      "firstSeen": "2026-10-25",
+      "firstSeen": "2026-10-26",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:04:48+09:00",
+      "scrapedAt": "2026-10-26T05:04:26+09:00",
       "aliases": [
         {
           "source": "통합포털 도서관/사서(사람인)",
           "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55330845"
         }
       ],
+      "isNew": false
+    },
+    {
+      "id": "sel-portal-saramin::3dff34b750",
+      "sid": "sel-portal-saramin",
+      "region": "서울",
+      "district": "강서구",
+      "source": "통합포털 도서관/사서(사람인)",
+      "title": "강서구립마곡열린도서관 주간계약직 직원 채용 공고(이메일지원)",
+      "jobType": "계약",
+      "posted": null,
+      "deadline": "2026-10-26",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55264863",
+      "firstSeen": "2026-10-13",
+      "status": "open",
+      "scrapedAt": "2026-10-26T05:04:26+09:00",
       "isNew": false
     },
     {
@@ -61,7 +77,7 @@
       "url": "https://www.nyj.go.kr/www/selectBbsNttView.do?key=2497&bbsNo=67&nttNo=550238&pageUnit=10&pageIndex=1&searchCnd=SJ&searchKrwd=%ec%b1%84%ec%9a%a9",
       "firstSeen": "2026-10-23",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:14:38+09:00",
+      "scrapedAt": "2026-10-26T05:13:59+09:00",
       "isNew": false
     },
     {
@@ -77,7 +93,7 @@
       "url": "https://www.gbcmc.or.kr/fmcs/138?action=read&action-value=8945df2fdeeec1db1fd1f24e0c968995",
       "firstSeen": "2026-10-23",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:01:04+09:00",
+      "scrapedAt": "2026-10-26T05:01:01+09:00",
       "isNew": false
     },
     {
@@ -93,7 +109,7 @@
       "url": "https://www.eplib.or.kr/intro/menu/10041/bbs/20002/bbsPostDetail.do?bbsPostIdx=233013&manageCd=ALL",
       "firstSeen": "2026-10-23",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:03:39+09:00",
+      "scrapedAt": "2026-10-26T05:03:06+09:00",
       "isNew": false
     },
     {
@@ -109,7 +125,7 @@
       "url": "https://lib.gangseo.seoul.kr/NoticeInfoDetail/34310/TOL",
       "firstSeen": "2026-10-22",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:01:17+09:00",
+      "scrapedAt": "2026-10-26T05:01:16+09:00",
       "isNew": false
     },
     {
@@ -124,8 +140,8 @@
       "deadline": "2026-11-04",
       "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35752&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-10-20",
-      "status": "upcoming",
-      "scrapedAt": "2026-10-25T05:02:45+09:00",
+      "status": "open",
+      "scrapedAt": "2026-10-26T05:02:28+09:00",
       "isNew": false
     },
     {
@@ -141,7 +157,7 @@
       "url": "https://recruit.incruit.com/nowonarts/job/2610140030",
       "firstSeen": "2026-10-16",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:02:01+09:00",
+      "scrapedAt": "2026-10-26T05:01:49+09:00",
       "isNew": false
     },
     {
@@ -157,7 +173,7 @@
       "url": "https://recruit.incruit.com/nowonarts/job/2610140028",
       "firstSeen": "2026-10-16",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:02:01+09:00",
+      "scrapedAt": "2026-10-26T05:01:49+09:00",
       "isNew": false
     },
     {
@@ -173,7 +189,7 @@
       "url": "https://recruit.incruit.com/nowonarts/job/2610140026",
       "firstSeen": "2026-10-16",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:02:01+09:00",
+      "scrapedAt": "2026-10-26T05:01:49+09:00",
       "isNew": false
     },
     {
@@ -189,7 +205,7 @@
       "url": "https://www.caci.or.kr/community/notice/144917?q=M2FiYzY0MGNjOWQxNGM4NDlkY2MyNDZmZDFhM2UxOWE=",
       "firstSeen": "2026-10-13",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:04:22+09:00",
+      "scrapedAt": "2026-10-26T05:03:59+09:00",
       "isNew": false
     },
     {
@@ -205,7 +221,7 @@
       "url": "https://gdlib.sen.go.kr/gdlib/board/view.do?menu_idx=25&board_idx=1709292&manage_idx=52",
       "firstSeen": "2026-09-05",
       "status": "upcoming",
-      "scrapedAt": "2026-10-25T05:06:50+09:00",
+      "scrapedAt": "2026-10-26T05:05:55+09:00",
       "isNew": false
     },
     {
@@ -221,7 +237,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55324019",
       "firstSeen": "2026-10-20",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:04:48+09:00",
+      "scrapedAt": "2026-10-26T05:04:26+09:00",
       "isNew": false
     },
     {
@@ -237,23 +253,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55350246",
       "firstSeen": "2026-10-22",
       "status": "open",
-      "scrapedAt": "2026-10-25T05:04:48+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-portal-saramin::3dff34b750",
-      "sid": "sel-portal-saramin",
-      "region": "서울",
-      "district": "강서구",
-      "source": "통합포털 도서관/사서(사람인)",
-      "title": "강서구립마곡열린도서관 주간계약직 직원 채용 공고(이메일지원)",
-      "jobType": "계약",
-      "posted": null,
-      "deadline": null,
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55264863",
-      "firstSeen": "2026-10-13",
-      "status": "open",
-      "scrapedAt": "2026-10-25T05:04:48+09:00",
+      "scrapedAt": "2026-10-26T05:04:26+09:00",
       "isNew": false
     },
     {
@@ -271,7 +271,7 @@
       "status": "upcoming",
       "id": "records-saramin::00d6ab2795",
       "firstSeen": "2026-10-23",
-      "scrapedAt": "2026-10-25T05:25:09+09:00",
+      "scrapedAt": "2026-10-26T05:23:28+09:00",
       "isNew": false
     },
     {
@@ -289,7 +289,7 @@
       "status": "open",
       "id": "records-saramin::905b6d6a48",
       "firstSeen": "2026-10-23",
-      "scrapedAt": "2026-10-25T05:25:09+09:00",
+      "scrapedAt": "2026-10-26T05:23:28+09:00",
       "isNew": false
     },
     {
@@ -307,7 +307,7 @@
       "status": "open",
       "id": "records-saramin::66626b4813",
       "firstSeen": "2026-10-23",
-      "scrapedAt": "2026-10-25T05:25:09+09:00",
+      "scrapedAt": "2026-10-26T05:23:28+09:00",
       "isNew": false
     },
     {
@@ -325,7 +325,7 @@
       "status": "open",
       "id": "records-saramin::36989c1f49",
       "firstSeen": "2026-10-23",
-      "scrapedAt": "2026-10-25T05:25:09+09:00",
+      "scrapedAt": "2026-10-26T05:23:28+09:00",
       "isNew": false
     }
   ]
