@@ -257,10 +257,10 @@ function render(){
   });
 }
 function renderCounts(){
-  var o=open().filter(function(j){return j.region!=="기록관리";});
-  var na=open().length-o.length;
-  document.getElementById("counts").innerHTML="현재 열린 공고 <b>"+o.length+"</b>건 · 오늘 새로 <b style='color:var(--new)'>"+o.filter(isNew).length+"</b>건 <span style='color:var(--faint)'>· "+(META.collected_at||"")+" 수집</span>"+
-    (na?" · 기록관리 <b>"+na+"</b>건"+(ARCH_META===META?"":" <span style='color:var(--faint)'>· "+esc(ARCH_META.collected_at||"")+" 수집</span>"):"");
+  var o=open();
+
+  document.getElementById("counts").innerHTML="현재 열린 공고 <b>"+o.length+"</b>건 · 오늘 새로 <b style='color:var(--new)'>"+o.filter(isNew).length+"</b>건 <span style='color:var(--faint)'>· "+(META.collected_at||"")+" 수집</span>";
+
   var fn=document.getElementById("failnote"),fa=(META.failures||[]);
   if(fa.length){fn.hidden=false;fn.innerHTML="⚠ 수집 실패(이전 목록 임시 표시): "+fa.map(esc).join(", ");}
   else fn.hidden=true;
