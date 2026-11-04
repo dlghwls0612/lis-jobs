@@ -1,12 +1,12 @@
 {
   "meta": {
     "project": "lis-jobs (서울·경기 사서·기록관리 채용 수집기)",
-    "collected_at": "2026-11-04 05:25",
-    "job_count": 31,
+    "collected_at": "2026-11-05 05:28",
+    "job_count": 26,
     "failures": [],
     "unreadable": [],
     "records": {
-      "job_count": 8
+      "job_count": 7
     }
   },
   "jobs": [
@@ -23,7 +23,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55151877",
       "firstSeen": "2026-09-30",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:05:38+09:00",
+      "scrapedAt": "2026-11-05T05:06:08+09:00",
       "isNew": false
     },
     {
@@ -39,8 +39,8 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55471408",
       "firstSeen": "2026-11-04",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:05:38+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-05T05:06:08+09:00",
+      "isNew": false
     },
     {
       "id": "sel-portal-saramin::e73aef30c0",
@@ -55,8 +55,8 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55474254",
       "firstSeen": "2026-11-04",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:05:38+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-05T05:06:08+09:00",
+      "isNew": false
     },
     {
       "id": "sel-portal-saramin::7e3f9f5b36",
@@ -71,8 +71,24 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55419768",
       "firstSeen": "2026-10-29",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:05:38+09:00",
+      "scrapedAt": "2026-11-05T05:06:08+09:00",
       "isNew": false
+    },
+    {
+      "id": "sel-portal-saramin::79085789ca",
+      "sid": "sel-portal-saramin",
+      "region": "서울",
+      "district": "구로구",
+      "source": "통합포털 도서관/사서(사람인)",
+      "title": "[서울개명초등학교] 사서 대체직원 채용계획 공고",
+      "jobType": "계약",
+      "posted": null,
+      "deadline": "2026-11-09",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55363084",
+      "firstSeen": "2026-11-05",
+      "status": "open",
+      "scrapedAt": "2026-11-05T05:06:08+09:00",
+      "isNew": true
     },
     {
       "id": "sel-portal-saramin::596fc3d1b0",
@@ -87,8 +103,46 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55430519",
       "firstSeen": "2026-10-30",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:05:38+09:00",
+      "scrapedAt": "2026-11-05T05:06:08+09:00",
       "isNew": false
+    },
+    {
+      "id": "sel-seongbuk-sbc::64b90c2a5c",
+      "sid": "sel-seongbuk-sbc",
+      "region": "서울",
+      "district": "성북구",
+      "source": "성북문화재단",
+      "title": "성북문화재단 석관동미리내도서관 2026년 주말 아르바이트(사서보조) 모집 공고",
+      "jobType": "알바",
+      "posted": "2026-11-04",
+      "deadline": "2026-11-12",
+      "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35764&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
+      "firstSeen": "2026-11-05",
+      "status": "open",
+      "scrapedAt": "2026-11-05T05:03:59+09:00",
+      "isNew": true
+    },
+    {
+      "id": "sel-nl::094bec31fb",
+      "sid": "sel-nl",
+      "region": "서울",
+      "district": "전역·통합",
+      "source": "국립중앙도서관",
+      "title": "국립중앙도서관 지식정보서비스과 기간제근로자(장애인 제한경쟁) 채용 공고",
+      "jobType": "계약",
+      "posted": "2026-11-04",
+      "deadline": "2026-11-16",
+      "url": "https://www.nl.go.kr/NL/contents/N50602000000.do?schM=view&id=59823",
+      "firstSeen": "2026-11-05",
+      "status": "upcoming",
+      "scrapedAt": "2026-11-05T05:06:26+09:00",
+      "aliases": [
+        {
+          "source": "국립중앙도서관",
+          "url": "https://www.nl.go.kr/NL/contents/N50602000000.do?page=2&schM=view&id=59823"
+        }
+      ],
+      "isNew": true
     },
     {
       "id": "ggi-gwangmyeong-lib::f86bc61bed",
@@ -103,7 +157,7 @@
       "url": "https://gmlib.gm.go.kr/front/index.php?g_page=open&m_page=open01&page=1&bb_code=10gi0g801jd0e80&view=read&field=sub|con&wd=85&bvLib=85",
       "firstSeen": "2026-10-31",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:16:59+09:00",
+      "scrapedAt": "2026-11-05T05:19:11+09:00",
       "isNew": false
     },
     {
@@ -119,7 +173,7 @@
       "url": "https://recruit.incruit.com/nowonarts/job/2610270011",
       "firstSeen": "2026-10-30",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:03:01+09:00",
+      "scrapedAt": "2026-11-05T05:03:16+09:00",
       "isNew": false
     },
     {
@@ -135,23 +189,7 @@
       "url": "https://www.eplib.or.kr/intro/menu/10041/bbs/20002/bbsPostDetail.do?bbsPostIdx=234392&manageCd=ALL",
       "firstSeen": "2026-10-30",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:04:39+09:00",
-      "isNew": false
-    },
-    {
-      "id": "ggi-gimpo-lib::c9a3729472",
-      "sid": "ggi-gimpo-lib",
-      "region": "경기",
-      "district": "김포시",
-      "source": "김포시립도서관(장기도서관 등)",
-      "title": "김포만화도서관 단시간근로자 채용 공고（결원보충） （1명, ~11.4. 17시까지）",
-      "jobType": "알바",
-      "posted": "2026-10-28",
-      "deadline": "2026-11-04",
-      "url": "https://www.gimpo.go.kr/janggi/selectBbsNttView.do?key=2801&bbsNo=32&searchCnd=all&deleteAt=N&pageUnit=10&pageIndex=1&nttNo=1035244",
-      "firstSeen": "2026-10-29",
-      "status": "open",
-      "scrapedAt": "2026-11-04T05:21:39+09:00",
+      "scrapedAt": "2026-11-05T05:04:56+09:00",
       "isNew": false
     },
     {
@@ -167,7 +205,7 @@
       "url": "https://gfac.or.kr/site/main/recruit/971/view",
       "firstSeen": "2026-10-27",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:01:55+09:00",
+      "scrapedAt": "2026-11-05T05:02:09+09:00",
       "isNew": false
     },
     {
@@ -183,7 +221,7 @@
       "url": "https://gfac.or.kr/site/main/recruit/972/view",
       "firstSeen": "2026-10-27",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:01:59+09:00",
+      "scrapedAt": "2026-11-05T05:02:13+09:00",
       "isNew": false
     },
     {
@@ -199,7 +237,7 @@
       "url": "https://gfac.or.kr/site/main/recruit/973/view",
       "firstSeen": "2026-10-27",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:02:03+09:00",
+      "scrapedAt": "2026-11-05T05:02:17+09:00",
       "isNew": false
     },
     {
@@ -215,7 +253,7 @@
       "url": "https://gfac.or.kr/site/main/recruit/974/view",
       "firstSeen": "2026-10-27",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:02:09+09:00",
+      "scrapedAt": "2026-11-05T05:02:21+09:00",
       "isNew": false
     },
     {
@@ -231,23 +269,7 @@
       "url": "https://gfac.or.kr/site/main/recruit/975/view",
       "firstSeen": "2026-10-27",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:02:14+09:00",
-      "isNew": false
-    },
-    {
-      "id": "ggi-gimpo-lib::52d729f6c3",
-      "sid": "ggi-gimpo-lib",
-      "region": "경기",
-      "district": "김포시",
-      "source": "김포시립도서관(장기도서관 등)",
-      "title": "2026년 마산도서관 야간 기간제근로자 채용（결원보충）（2명, ~11.4. 17시까지）",
-      "jobType": "알바",
-      "posted": "2026-10-27",
-      "deadline": "2026-11-04",
-      "url": "https://www.gimpo.go.kr/janggi/selectBbsNttView.do?key=2801&bbsNo=32&searchCnd=all&deleteAt=N&pageUnit=10&pageIndex=1&nttNo=1035218",
-      "firstSeen": "2026-10-28",
-      "status": "open",
-      "scrapedAt": "2026-11-04T05:21:41+09:00",
+      "scrapedAt": "2026-11-05T05:02:25+09:00",
       "isNew": false
     },
     {
@@ -263,93 +285,7 @@
       "url": "https://www.gbcmc.or.kr/fmcs/138?action=read&action-value=8945df2fdeeec1db1fd1f24e0c968995",
       "firstSeen": "2026-10-23",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:01:30+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-seongbuk-sbc::d73a30335a",
-      "sid": "sel-seongbuk-sbc",
-      "region": "서울",
-      "district": "성북구",
-      "source": "성북문화재단",
-      "title": "성북문화재단 기간직 채용 공고(기간직(보조금_개관시간연장), 다급상당, 사서)",
-      "jobType": "계약",
-      "posted": "2026-10-19",
-      "deadline": "2026-11-04",
-      "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35752&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
-      "firstSeen": "2026-10-20",
-      "status": "open",
-      "scrapedAt": "2026-11-04T05:03:51+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-seongbuk-sbc::8f5ed8d75b",
-      "sid": "sel-seongbuk-sbc",
-      "region": "서울",
-      "district": "성북구",
-      "source": "성북문화재단",
-      "title": "성북문화재단 기간직 채용 공고(기간직, 휴직대체, 나급, 사서)",
-      "jobType": "계약",
-      "posted": "2026-10-19",
-      "deadline": "2026-11-04",
-      "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35751&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
-      "firstSeen": "2026-11-02",
-      "status": "open",
-      "scrapedAt": "2026-11-04T05:03:53+09:00",
-      "aliases": [
-        {
-          "source": "통합포털 도서관/사서(사람인)",
-          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55330845"
-        }
-      ],
-      "isNew": false
-    },
-    {
-      "id": "sel-nowon-arts::acd9581f88",
-      "sid": "sel-nowon-arts",
-      "region": "서울",
-      "district": "노원구",
-      "source": "노원문화재단",
-      "title": "2026년 11차 노원문화재단 도서관기획실 채용 공고 [기간제]_불암도서관",
-      "jobType": "계약",
-      "posted": "2026-10-15",
-      "deadline": "2026-11-04",
-      "url": "https://recruit.incruit.com/nowonarts/job/2610140030",
-      "firstSeen": "2026-10-16",
-      "status": "open",
-      "scrapedAt": "2026-11-04T05:03:01+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-nowon-arts::6fac026bc4",
-      "sid": "sel-nowon-arts",
-      "region": "서울",
-      "district": "노원구",
-      "source": "노원문화재단",
-      "title": "2026년 11차 노원문화재단 도서관기획실 채용 공고 [기간제]_노원어린이도서관",
-      "jobType": "계약",
-      "posted": "2026-10-15",
-      "deadline": "2026-11-04",
-      "url": "https://recruit.incruit.com/nowonarts/job/2610140028",
-      "firstSeen": "2026-10-16",
-      "status": "open",
-      "scrapedAt": "2026-11-04T05:03:01+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-nowon-arts::02e6020747",
-      "sid": "sel-nowon-arts",
-      "region": "서울",
-      "district": "노원구",
-      "source": "노원문화재단",
-      "title": "2026년 11차 노원문화재단 도서관기획실 채용 공고 [기간제]_노원중앙도서관",
-      "jobType": "계약",
-      "posted": "2026-10-15",
-      "deadline": "2026-11-04",
-      "url": "https://recruit.incruit.com/nowonarts/job/2610140026",
-      "firstSeen": "2026-10-16",
-      "status": "open",
-      "scrapedAt": "2026-11-04T05:03:01+09:00",
+      "scrapedAt": "2026-11-05T05:01:41+09:00",
       "isNew": false
     },
     {
@@ -365,7 +301,7 @@
       "url": "https://gdlib.sen.go.kr/gdlib/board/view.do?menu_idx=25&board_idx=1709292&manage_idx=52",
       "firstSeen": "2026-09-05",
       "status": "upcoming",
-      "scrapedAt": "2026-11-04T05:07:26+09:00",
+      "scrapedAt": "2026-11-05T05:08:07+09:00",
       "isNew": false
     },
     {
@@ -381,7 +317,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55350246",
       "firstSeen": "2026-10-22",
       "status": "open",
-      "scrapedAt": "2026-11-04T05:05:38+09:00",
+      "scrapedAt": "2026-11-05T05:06:08+09:00",
       "isNew": false
     },
     {
@@ -396,28 +332,10 @@
       "posted": "2026-11-05",
       "deadline": "2026-11-11",
       "url": "https://www.gojobs.go.kr/apmView.do?menuNo=401&empmnsn=307383&searchJobsecode=020&selMenuNo=400",
-      "status": "upcoming",
+      "status": "open",
       "id": "records-gojobs::0c7cda2c44",
       "firstSeen": "2026-11-04",
-      "scrapedAt": "2026-11-04T05:25:35+09:00",
-      "isNew": true
-    },
-    {
-      "sid": "records-saramin",
-      "region": "기록관리",
-      "district": "서울",
-      "source": "(주)커리어넷",
-      "via": "사람인",
-      "title": "[성북문화재단](제26-29호)기간직 채용(휴직대체,기록물관리자)",
-      "jobType": "계약",
-      "spec": false,
-      "posted": null,
-      "deadline": null,
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55330786",
-      "status": "open",
-      "id": "records-saramin::00d6ab2795",
-      "firstSeen": "2026-10-23",
-      "scrapedAt": "2026-11-04T05:25:35+09:00",
+      "scrapedAt": "2026-11-05T05:28:36+09:00",
       "isNew": false
     },
     {
@@ -435,7 +353,7 @@
       "status": "open",
       "id": "records-saramin::905b6d6a48",
       "firstSeen": "2026-10-23",
-      "scrapedAt": "2026-11-04T05:25:35+09:00",
+      "scrapedAt": "2026-11-05T05:28:36+09:00",
       "isNew": false
     },
     {
@@ -453,7 +371,7 @@
       "status": "open",
       "id": "records-saramin::66626b4813",
       "firstSeen": "2026-10-23",
-      "scrapedAt": "2026-11-04T05:25:35+09:00",
+      "scrapedAt": "2026-11-05T05:28:36+09:00",
       "isNew": false
     },
     {
@@ -471,7 +389,7 @@
       "status": "open",
       "id": "records-saramin::8541deb770",
       "firstSeen": "2026-11-03",
-      "scrapedAt": "2026-11-04T05:25:35+09:00",
+      "scrapedAt": "2026-11-05T05:28:36+09:00",
       "isNew": false
     },
     {
@@ -489,7 +407,7 @@
       "status": "open",
       "id": "records-saramin::36989c1f49",
       "firstSeen": "2026-10-23",
-      "scrapedAt": "2026-11-04T05:25:35+09:00",
+      "scrapedAt": "2026-11-05T05:28:36+09:00",
       "isNew": false
     },
     {
@@ -507,8 +425,8 @@
       "status": "open",
       "id": "records-saramin::22e7797995",
       "firstSeen": "2026-11-04",
-      "scrapedAt": "2026-11-04T05:25:35+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-05T05:28:36+09:00",
+      "isNew": false
     },
     {
       "sid": "records-saramin",
@@ -525,7 +443,7 @@
       "status": "open",
       "id": "records-saramin::0b6806b2fc",
       "firstSeen": "2026-10-29",
-      "scrapedAt": "2026-11-04T05:25:35+09:00",
+      "scrapedAt": "2026-11-05T05:28:36+09:00",
       "isNew": false
     }
   ]
