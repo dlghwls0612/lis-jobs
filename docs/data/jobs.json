@@ -1,12 +1,12 @@
 {
   "meta": {
     "project": "lis-jobs (서울·경기 사서·기록관리 채용 수집기)",
-    "collected_at": "2026-11-14 05:26",
+    "collected_at": "2026-11-15 05:25",
     "job_count": 44,
     "failures": [],
     "unreadable": [],
     "records": {
-      "job_count": 7
+      "job_count": 8
     }
   },
   "jobs": [
@@ -23,7 +23,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55520440",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
       "isNew": false
     },
     {
@@ -39,7 +39,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55547053",
       "firstSeen": "2026-11-12",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
       "isNew": false
     },
     {
@@ -55,7 +55,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55518799",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
       "isNew": false
     },
     {
@@ -71,7 +71,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55517540",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
       "isNew": false
     },
     {
@@ -87,7 +87,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55526102",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
       "isNew": false
     },
     {
@@ -103,7 +103,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55526101",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
       "isNew": false
     },
     {
@@ -119,8 +119,8 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55566694",
       "firstSeen": "2026-11-14",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
+      "isNew": false
     },
     {
       "id": "sel-portal-saramin::8b711b7e87",
@@ -135,7 +135,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55471408",
       "firstSeen": "2026-11-04",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
       "isNew": false
     },
     {
@@ -151,7 +151,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55474254",
       "firstSeen": "2026-11-04",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
       "isNew": false
     },
     {
@@ -167,7 +167,7 @@
       "url": "https://recruit.incruit.com/gdfac/job/2610270006",
       "firstSeen": "2026-11-11",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:01:07+09:00",
+      "scrapedAt": "2026-11-15T05:01:04+09:00",
       "isNew": false
     },
     {
@@ -183,7 +183,7 @@
       "url": "https://recruit.incruit.com/gdfac/job/2610270004",
       "firstSeen": "2026-11-11",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:01:07+09:00",
+      "scrapedAt": "2026-11-15T05:01:04+09:00",
       "isNew": false
     },
     {
@@ -199,8 +199,8 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42881&manageCd=ALL",
       "firstSeen": "2026-11-14",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:29+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-15T05:15:22+09:00",
+      "isNew": false
     },
     {
       "id": "ggi-edu-goe::8b401e7fde",
@@ -215,7 +215,7 @@
       "url": "https://lib.goe.go.kr/hs/board/view.do?menu_idx=40&manage_idx=1&board_idx=205040&viewPage=1&category1=",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:12:41+09:00",
+      "scrapedAt": "2026-11-15T05:12:32+09:00",
       "isNew": false
     },
     {
@@ -231,7 +231,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42861&manageCd=ALL",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:31+09:00",
+      "scrapedAt": "2026-11-15T05:15:24+09:00",
       "isNew": false
     },
     {
@@ -247,7 +247,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42860&manageCd=ALL",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:33+09:00",
+      "scrapedAt": "2026-11-15T05:15:26+09:00",
       "isNew": false
     },
     {
@@ -263,7 +263,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42846&manageCd=ALL",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:35+09:00",
+      "scrapedAt": "2026-11-15T05:15:29+09:00",
       "isNew": false
     },
     {
@@ -279,7 +279,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42845&manageCd=ALL",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:38+09:00",
+      "scrapedAt": "2026-11-15T05:15:31+09:00",
       "isNew": false
     },
     {
@@ -295,7 +295,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42844&manageCd=ALL",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:40+09:00",
+      "scrapedAt": "2026-11-15T05:15:34+09:00",
       "isNew": false
     },
     {
@@ -311,7 +311,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42843&manageCd=ALL",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:42+09:00",
+      "scrapedAt": "2026-11-15T05:15:36+09:00",
       "isNew": false
     },
     {
@@ -327,7 +327,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42842&manageCd=ALL",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:44+09:00",
+      "scrapedAt": "2026-11-15T05:15:38+09:00",
       "isNew": false
     },
     {
@@ -343,7 +343,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42841&manageCd=ALL",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:46+09:00",
+      "scrapedAt": "2026-11-15T05:15:40+09:00",
       "isNew": false
     },
     {
@@ -359,7 +359,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42840&manageCd=ALL",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:49+09:00",
+      "scrapedAt": "2026-11-15T05:15:43+09:00",
       "isNew": false
     },
     {
@@ -375,7 +375,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42821&manageCd=ALL",
       "firstSeen": "2026-11-12",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:51+09:00",
+      "scrapedAt": "2026-11-15T05:15:45+09:00",
       "isNew": false
     },
     {
@@ -391,7 +391,7 @@
       "url": "https://lib.anyang.go.kr/intro/menu/10037/bbs/20001/bbsPostDetail.do?postIdx=42800&manageCd=ALL",
       "firstSeen": "2026-11-12",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:15:53+09:00",
+      "scrapedAt": "2026-11-15T05:15:47+09:00",
       "isNew": false
     },
     {
@@ -407,7 +407,7 @@
       "url": "https://recruit.incruit.com/songpafac/job/2611040022",
       "firstSeen": "2026-11-06",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:03:43+09:00",
+      "scrapedAt": "2026-11-15T05:03:38+09:00",
       "isNew": false
     },
     {
@@ -423,7 +423,7 @@
       "url": "https://recruit.incruit.com/songpafac/job/2611040020",
       "firstSeen": "2026-11-06",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:03:43+09:00",
+      "scrapedAt": "2026-11-15T05:03:38+09:00",
       "isNew": false
     },
     {
@@ -439,7 +439,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/ot9d31rcf5gqdtw7?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-11",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:17:50+09:00",
+      "scrapedAt": "2026-11-15T05:17:49+09:00",
       "isNew": false
     },
     {
@@ -455,7 +455,7 @@
       "url": "https://gmlib.gm.go.kr/front/index.php?g_page=open&m_page=open01&page=1&bb_code=10gf0g802d41c66&view=read&field=sub|con&wd=85&bvLib=85",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:17:10+09:00",
+      "scrapedAt": "2026-11-15T05:17:05+09:00",
       "isNew": false
     },
     {
@@ -471,7 +471,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/aermfsr4cdzbryub?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:17:56+09:00",
+      "scrapedAt": "2026-11-15T05:17:56+09:00",
       "isNew": false
     },
     {
@@ -487,7 +487,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/9i40vah1gu3ry3b4?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:18:04+09:00",
+      "scrapedAt": "2026-11-15T05:18:02+09:00",
       "isNew": false
     },
     {
@@ -503,7 +503,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/9f5ngqzdwadimlq9?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:18:10+09:00",
+      "scrapedAt": "2026-11-15T05:18:09+09:00",
       "isNew": false
     },
     {
@@ -519,7 +519,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/739ohdmal287d7dw?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:18:17+09:00",
+      "scrapedAt": "2026-11-15T05:18:20+09:00",
       "isNew": false
     },
     {
@@ -535,23 +535,7 @@
       "url": "https://lib.gjcity.go.kr/lay1/bbs/S1T82C3521/H/1/view.do?article_seq=66024&child=&cpage=&rows=&condition=&keyword=",
       "firstSeen": "2026-11-07",
       "status": "upcoming",
-      "scrapedAt": "2026-11-14T05:22:12+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-seongbuk-sbc::e56a03fa02",
-      "sid": "sel-seongbuk-sbc",
-      "region": "서울",
-      "district": "성북구",
-      "source": "성북문화재단",
-      "title": "성북문화재단 달빛마루도서관 단시간 아르바이트(사서보조) 모집 공고",
-      "jobType": "알바",
-      "posted": "2026-11-05",
-      "deadline": "2026-11-14",
-      "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35766&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
-      "firstSeen": "2026-11-06",
-      "status": "open",
-      "scrapedAt": "2026-11-14T05:03:34+09:00",
+      "scrapedAt": "2026-11-15T05:21:57+09:00",
       "isNew": false
     },
     {
@@ -567,7 +551,7 @@
       "url": "https://www.nl.go.kr/NL/contents/N50602000000.do?schM=view&id=59823",
       "firstSeen": "2026-11-05",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:52+09:00",
+      "scrapedAt": "2026-11-15T05:05:26+09:00",
       "aliases": [
         {
           "source": "국립중앙도서관",
@@ -589,7 +573,7 @@
       "url": "https://gdlib.sen.go.kr/gdlib/board/view.do?menu_idx=25&board_idx=1709292&manage_idx=52",
       "firstSeen": "2026-09-05",
       "status": "upcoming",
-      "scrapedAt": "2026-11-14T05:07:18+09:00",
+      "scrapedAt": "2026-11-15T05:07:04+09:00",
       "isNew": false
     },
     {
@@ -605,7 +589,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55350246",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-14T05:05:14+09:00",
+      "scrapedAt": "2026-11-15T05:05:11+09:00",
       "isNew": false
     },
     {
@@ -623,7 +607,7 @@
       "status": "open",
       "id": "records-alio::d545aa80a5",
       "firstSeen": "2026-11-09",
-      "scrapedAt": "2026-11-14T05:26:00+09:00",
+      "scrapedAt": "2026-11-15T05:25:58+09:00",
       "isNew": false
     },
     {
@@ -636,13 +620,31 @@
       "jobType": "계약",
       "spec": true,
       "posted": null,
-      "deadline": null,
+      "deadline": "2026-11-15",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55534627",
       "status": "open",
       "id": "records-saramin::a8c2e52636",
       "firstSeen": "2026-11-11",
-      "scrapedAt": "2026-11-14T05:26:00+09:00",
+      "scrapedAt": "2026-11-15T05:25:58+09:00",
       "isNew": false
+    },
+    {
+      "sid": "records-saramin",
+      "region": "기록관리",
+      "district": "서울",
+      "source": "(주)오너스",
+      "via": "사람인",
+      "title": "기록물관리전문요원 채용공고",
+      "jobType": "정규",
+      "spec": true,
+      "posted": null,
+      "deadline": "2026-11-15",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55308234",
+      "status": "open",
+      "id": "records-saramin::905b6d6a48",
+      "firstSeen": "2026-11-15",
+      "scrapedAt": "2026-11-15T05:25:58+09:00",
+      "isNew": true
     },
     {
       "sid": "records-saramin",
@@ -659,7 +661,7 @@
       "status": "open",
       "id": "records-saramin::66626b4813",
       "firstSeen": "2026-10-23",
-      "scrapedAt": "2026-11-14T05:26:00+09:00",
+      "scrapedAt": "2026-11-15T05:25:58+09:00",
       "isNew": false
     },
     {
@@ -677,7 +679,7 @@
       "status": "open",
       "id": "records-saramin::8541deb770",
       "firstSeen": "2026-11-03",
-      "scrapedAt": "2026-11-14T05:26:00+09:00",
+      "scrapedAt": "2026-11-15T05:25:58+09:00",
       "isNew": false
     },
     {
@@ -695,8 +697,8 @@
       "status": "open",
       "id": "records-saramin::36989c1f49",
       "firstSeen": "2026-11-14",
-      "scrapedAt": "2026-11-14T05:26:00+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-15T05:25:58+09:00",
+      "isNew": false
     },
     {
       "sid": "records-saramin",
@@ -713,7 +715,7 @@
       "status": "open",
       "id": "records-saramin::22e7797995",
       "firstSeen": "2026-11-04",
-      "scrapedAt": "2026-11-14T05:26:00+09:00",
+      "scrapedAt": "2026-11-15T05:25:58+09:00",
       "isNew": false
     },
     {
@@ -731,7 +733,7 @@
       "status": "open",
       "id": "records-saramin::0b6806b2fc",
       "firstSeen": "2026-10-29",
-      "scrapedAt": "2026-11-14T05:26:00+09:00",
+      "scrapedAt": "2026-11-15T05:25:58+09:00",
       "isNew": false
     }
   ]
