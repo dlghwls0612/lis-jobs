@@ -1,8 +1,8 @@
 {
   "meta": {
     "project": "lis-jobs (서울·경기 사서·기록관리 채용 수집기)",
-    "collected_at": "2026-11-24 05:30",
-    "job_count": 54,
+    "collected_at": "2026-11-25 05:25",
+    "job_count": 60,
     "failures": [],
     "unreadable": [],
     "records": {
@@ -23,8 +23,56 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55520440",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:05:06+09:00",
+      "scrapedAt": "2026-11-25T05:05:01+09:00",
       "isNew": false
+    },
+    {
+      "id": "sel-portal-saramin::df744d7f23",
+      "sid": "sel-portal-saramin",
+      "region": "서울",
+      "district": "서초구",
+      "source": "통합포털 도서관/사서(사람인)",
+      "title": "서초청소년도서관 2027년 개관시간 연장지원사업 계약직원(사서) 및 초단시간근로자 채용 공고",
+      "jobType": "알바",
+      "posted": null,
+      "deadline": "2026-12-08",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55661665",
+      "firstSeen": "2026-11-25",
+      "status": "open",
+      "scrapedAt": "2026-11-25T05:05:01+09:00",
+      "isNew": true
+    },
+    {
+      "id": "sel-portal-saramin::521664e6e4",
+      "sid": "sel-portal-saramin",
+      "region": "서울",
+      "district": "강서구",
+      "source": "통합포털 도서관/사서(사람인)",
+      "title": "[급구]곰달래도서관 개관연장사서 채용 공고(12/1까지, 이메일)",
+      "jobType": "계약",
+      "posted": null,
+      "deadline": "2026-12-01",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55654578",
+      "firstSeen": "2026-11-25",
+      "status": "open",
+      "scrapedAt": "2026-11-25T05:05:01+09:00",
+      "isNew": true
+    },
+    {
+      "id": "sel-portal-saramin::9167981644",
+      "sid": "sel-portal-saramin",
+      "region": "서울",
+      "district": "강서구",
+      "source": "통합포털 도서관/사서(사람인)",
+      "title": "[급구] 강서구립 곰달래도서관 개관연장사서 채용 공고",
+      "jobType": "계약",
+      "posted": null,
+      "deadline": "2026-12-01",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55661760",
+      "firstSeen": "2026-11-25",
+      "status": "open",
+      "scrapedAt": "2026-11-25T05:05:01+09:00",
+      "isNew": true
     },
     {
       "id": "sel-portal-saramin::8ebf48b0b0",
@@ -39,45 +87,39 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55597553",
       "firstSeen": "2026-11-18",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:05:06+09:00",
+      "scrapedAt": "2026-11-25T05:05:01+09:00",
       "isNew": false
     },
     {
-      "id": "sel-portal-saramin::92b3935218",
-      "sid": "sel-portal-saramin",
-      "region": "경기",
-      "district": "수원시",
-      "source": "통합포털 도서관/사서(사람인)",
-      "title": "[수원/주5일]성균관대학교 사서직 채용(육아휴직 대체)",
-      "jobType": "계약",
-      "posted": null,
-      "deadline": "2026-11-26",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55547053",
-      "firstSeen": "2026-11-12",
-      "status": "open",
-      "scrapedAt": "2026-11-24T05:05:06+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-portal-saramin::a1def0bcc2",
-      "sid": "sel-portal-saramin",
+      "id": "sel-edu-yslib::f0a4db012c",
+      "sid": "sel-edu-yslib",
       "region": "서울",
-      "district": "강서구",
-      "source": "통합포털 도서관/사서(사람인)",
-      "title": "강서구립마곡열린도서관 시간제근로자(초단시간/주말) 채용 공고",
+      "district": "용산구",
+      "source": "용산도서관(교육청)",
+      "title": "2027년 자료실 주말 단시간 근로자 채용 공고 새글",
       "jobType": "알바",
-      "posted": null,
-      "deadline": "2026-11-24",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55600396",
-      "firstSeen": "2026-11-24",
+      "posted": "2026-11-24",
+      "deadline": "2026-11-28",
+      "url": "https://yslib.sen.go.kr/yslib/board/view.do?menu_idx=25&board_idx=1761095&manage_idx=997",
+      "firstSeen": "2026-11-25",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:05:06+09:00",
-      "aliases": [
-        {
-          "source": "통합포털 도서관/사서(사람인)",
-          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55598285"
-        }
-      ],
+      "scrapedAt": "2026-11-25T05:08:32+09:00",
+      "isNew": true
+    },
+    {
+      "id": "sel-edu-sdmlib::9ff000330a",
+      "sid": "sel-edu-sdmlib",
+      "region": "서울",
+      "district": "서대문구",
+      "source": "서대문도서관(교육청)",
+      "title": "2027년 자료실 주말, 평일 단시간 근로자 채용 공고 새글",
+      "jobType": "알바",
+      "posted": "2026-11-24",
+      "deadline": "2026-11-29",
+      "url": "https://sdmlib.sen.go.kr/sdmlib/board/view.do?menu_idx=25&board_idx=1761141&manage_idx=749",
+      "firstSeen": "2026-11-25",
+      "status": "open",
+      "scrapedAt": "2026-11-25T05:10:07+09:00",
       "isNew": true
     },
     {
@@ -86,15 +128,15 @@
       "region": "서울",
       "district": "강남구",
       "source": "강남도서관(교육청)",
-      "title": "2027년 강남도서관 자료실 평일야간근무 및 주말근무 지원인력 채용 공고 새글",
+      "title": "2027년 강남도서관 자료실 평일야간근무 및 주말근무 지원인력 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": null,
       "url": "https://gnlib.sen.go.kr/gnlib/board/view.do?menu_idx=25&board_idx=1761023&manage_idx=27",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:06:18+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:06:12+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-gdllc::503c929717",
@@ -102,21 +144,21 @@
       "region": "서울",
       "district": "강동구",
       "source": "고덕평생학습관(교육청)",
-      "title": "2027년 고덕평생학습관 평일·주말 자료실 단시간 근로자 모집 안내 새글",
+      "title": "2027년 고덕평생학습관 평일·주말 자료실 단시간 근로자 모집 안내",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://gdllc.sen.go.kr/gdllc/board/view.do?menu_idx=25&board_idx=1761021&manage_idx=191",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:07:03+09:00",
+      "scrapedAt": "2026-11-25T05:06:57+09:00",
       "aliases": [
         {
           "source": "강동도서관(교육청)",
           "url": "https://gdlib.sen.go.kr/gdlib/board/view.do?menu_idx=25&board_idx=1760952&manage_idx=52"
         }
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "sel-edu-gslib::4d0f799c83",
@@ -124,15 +166,15 @@
       "region": "서울",
       "district": "강서구",
       "source": "강서도서관(교육청)",
-      "title": "2027년 강서도서관 주중·주말 단시간 근로자 채용 공고 새글",
+      "title": "2027년 강서도서관 주중·주말 단시간 근로자 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://gslib.sen.go.kr/gslib/board/view.do?menu_idx=25&board_idx=1761088&manage_idx=96",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:07:39+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:07:11+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-gclib::07eb4d2102",
@@ -140,15 +182,15 @@
       "region": "서울",
       "district": "구로구",
       "source": "고척도서관(교육청)",
-      "title": "2027년 고척도서관 단시간 근로자(주중야간, 주말) 채용 공고 새글",
+      "title": "2027년 고척도서관 단시간 근로자(주중야간, 주말) 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-12-01",
       "url": "https://gclib.sen.go.kr/gclib/board/view.do?menu_idx=25&board_idx=1761047&manage_idx=312",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:08:21+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:07:36+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-grlib::a19243560f",
@@ -156,15 +198,15 @@
       "region": "서울",
       "district": "구로구",
       "source": "구로도서관(교육청)",
-      "title": "2027년 주중·주말 단시간근로자 채용 공고 새글",
+      "title": "2027년 주중·주말 단시간근로자 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://grlib.sen.go.kr/grlib/board/view.do?menu_idx=25&board_idx=1761054&manage_idx=388",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:09:07+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:08:09+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-nslib::f5e459c9eb",
@@ -172,15 +214,15 @@
       "region": "서울",
       "district": "용산구",
       "source": "남산도서관(교육청)",
-      "title": "2027년도 서울특별시교육청남산도서관 자료실 단시간 근로자(주중, 주말) 지원인력 채용공고 새글",
+      "title": "2027년도 서울특별시교육청남산도서관 자료실 단시간 근로자(주중, 주말) 지원인력 채용공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://nslib.sen.go.kr/nslib/board/view.do?menu_idx=25&board_idx=1761025&manage_idx=428",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:09:17+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:08:16+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-nwllc::20faefac59",
@@ -188,15 +230,15 @@
       "region": "서울",
       "district": "노원구",
       "source": "노원평생학습관(교육청)",
-      "title": "2027년 노원평생학습관 기간제 근로자 채용 안내(지원기간: 11.23.~11.27.) 새글",
+      "title": "2027년 노원평생학습관 기간제 근로자 채용 안내(지원기간: 11.23.~11.27.)",
       "jobType": "계약",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://nwllc.sen.go.kr/nwllc/board/view.do?menu_idx=25&board_idx=1761049&manage_idx=471",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:09:55+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:08:43+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-dblib::136b21f8fe",
@@ -204,15 +246,15 @@
       "region": "서울",
       "district": "도봉구",
       "source": "도봉도서관(교육청)",
-      "title": "2027년 도봉도서관 주중/주말 단시간 근로자(사서보조)채용 공고 새글",
+      "title": "2027년 도봉도서관 주중/주말 단시간 근로자(사서보조)채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://dblib.sen.go.kr/dblib/board/view.do?menu_idx=25&board_idx=1761019&manage_idx=530",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:10:34+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:09:07+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-dblib::77bb01bf4c",
@@ -220,15 +262,15 @@
       "region": "서울",
       "district": "도봉구",
       "source": "도봉도서관(교육청)",
-      "title": "2027년 주말 단시간근로자(안내실) 채용 공고 새글",
+      "title": "2027년 주말 단시간근로자(안내실) 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-12-01",
       "url": "https://dblib.sen.go.kr/dblib/board/view.do?menu_idx=25&board_idx=1761015&manage_idx=530",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:10:42+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:09:10+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-mpllc::68843f55e0",
@@ -236,15 +278,15 @@
       "region": "서울",
       "district": "마포구",
       "source": "마포평생학습관(교육청)",
-      "title": "2027년 마포평생학습관 기간제근로자 채용 공고 (~11. 27. 금) 새글",
+      "title": "2027년 마포평생학습관 기간제근로자 채용 공고 (~11. 27. 금)",
       "jobType": "계약",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://mpllc.sen.go.kr/mpllc/board/view.do?menu_idx=25&board_idx=1761046&manage_idx=699",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:11:19+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:09:42+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-ahyon::f9b20c6598",
@@ -252,15 +294,15 @@
       "region": "서울",
       "district": "마포구",
       "source": "마포평생학습관 아현분관(교육청)",
-      "title": "2027년 아현분관 주말 기간제 근로자 채용 공고 새글",
+      "title": "2027년 아현분관 주말 기간제 근로자 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": null,
       "url": "https://ahyon.sen.go.kr/ahyon/board/view.do?menu_idx=25&board_idx=1761031&manage_idx=656",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:11:35+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:09:53+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-yclib::1f3e954a26",
@@ -268,15 +310,15 @@
       "region": "서울",
       "district": "양천구",
       "source": "양천도서관(교육청)",
-      "title": "2027년 양천도서관 자료실 단시간 근로자 채용 공고 새글",
+      "title": "2027년 양천도서관 자료실 단시간 근로자 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://yclib.sen.go.kr/yclib/board/view.do?menu_idx=25&board_idx=1761028&manage_idx=843",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:13:06+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:10:29+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-childlib::deda081fbb",
@@ -284,15 +326,15 @@
       "region": "서울",
       "district": "종로구",
       "source": "어린이도서관(교육청)",
-      "title": "2027년 정보자료과 자료실 주말 단시간 근로자 채용 공고 새글",
+      "title": "2027년 정보자료과 자료실 주말 단시간 근로자 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://childlib.sen.go.kr/childlib/board/view.do?menu_idx=25&board_idx=1761020&manage_idx=893",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:13:41+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:10:46+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-jdlib::ac92e1b1d8",
@@ -300,20 +342,30 @@
       "region": "서울",
       "district": "종로구",
       "source": "정독도서관(교육청)",
-      "title": "2027년 정독도서관 주말단시간 근로자 채용 공고 새글",
+      "title": "2027년 정독도서관 주말단시간 근로자 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-27",
       "url": "https://jdlib.sen.go.kr/jdlib/board/view.do?menu_idx=25&board_idx=1761068&manage_idx=1039",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:13:58+09:00",
-      "aliases": [
-        {
-          "source": "종로도서관(교육청)",
-          "url": "https://jnlib.sen.go.kr/jnlib/board/view.do?menu_idx=25&board_idx=1761076&manage_idx=1092"
-        }
-      ],
+      "scrapedAt": "2026-11-25T05:10:59+09:00",
+      "isNew": false
+    },
+    {
+      "id": "sel-edu-jnlib::e8ded7fb76",
+      "sid": "sel-edu-jnlib",
+      "region": "서울",
+      "district": "종로구",
+      "source": "종로도서관(교육청)",
+      "title": "2027년 종로도서관 주말단시간 근로자 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-23",
+      "deadline": "2026-11-27",
+      "url": "https://jnlib.sen.go.kr/jnlib/board/view.do?menu_idx=25&board_idx=1761076&manage_idx=1092",
+      "firstSeen": "2026-11-25",
+      "status": "open",
+      "scrapedAt": "2026-11-25T05:11:23+09:00",
       "isNew": true
     },
     {
@@ -322,15 +374,15 @@
       "region": "서울",
       "district": "영등포구",
       "source": "영등포평생학습관(교육청)",
-      "title": "2027년 정보자료과 단시간근로자(사서보조) 채용 공고(11.24.(화)~11.28.(토) 새글",
+      "title": "2027년 정보자료과 단시간근로자(사서보조) 채용 공고 작성자 정보자료과 주무관 작성일 2026.11.23 11:09 조회수 154",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-28",
       "url": "https://ydpllc.sen.go.kr/ydpllc/board/view.do?menu_idx=25&board_idx=1761044&manage_idx=951",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:15:17+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:11:44+09:00",
+      "isNew": false
     },
     {
       "id": "ggi-seongnam-lib::72243fd79f",
@@ -345,8 +397,8 @@
       "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211353&manageCd=ALL",
       "firstSeen": "2026-11-24",
       "status": "upcoming",
-      "scrapedAt": "2026-11-24T05:16:27+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:12:57+09:00",
+      "isNew": false
     },
     {
       "id": "ggi-seongnam-lib::8d778c53dc",
@@ -361,8 +413,8 @@
       "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211360&manageCd=ALL",
       "firstSeen": "2026-11-24",
       "status": "upcoming",
-      "scrapedAt": "2026-11-24T05:16:32+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:13:01+09:00",
+      "isNew": false
     },
     {
       "id": "ggi-seongnam-lib::6fadf8e518",
@@ -377,7 +429,23 @@
       "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211352&manageCd=ALL",
       "firstSeen": "2026-11-24",
       "status": "upcoming",
-      "scrapedAt": "2026-11-24T05:16:34+09:00",
+      "scrapedAt": "2026-11-25T05:13:04+09:00",
+      "isNew": false
+    },
+    {
+      "id": "ggi-seongnam-lib::7de53e7807",
+      "sid": "ggi-seongnam-lib",
+      "region": "경기",
+      "district": "성남시",
+      "source": "성남시도서관사업소",
+      "title": "판교 2027년 판교도서관 단시간근로자(자료정리원) 채용공고",
+      "jobType": "알바",
+      "posted": "2026-11-23",
+      "deadline": "2026-12-02",
+      "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211351&manageCd=ALL",
+      "firstSeen": "2026-11-25",
+      "status": "upcoming",
+      "scrapedAt": "2026-11-25T05:13:06+09:00",
       "isNew": true
     },
     {
@@ -393,8 +461,8 @@
       "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211343&manageCd=ALL",
       "firstSeen": "2026-11-24",
       "status": "upcoming",
-      "scrapedAt": "2026-11-24T05:16:37+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:13:09+09:00",
+      "isNew": false
     },
     {
       "id": "ggi-hanam-lib::f7efc06e31",
@@ -409,8 +477,8 @@
       "url": "https://www.hanam.go.kr/www/selectGosiData.do?key=172&not_ancmt_mgt_no=53297&not_ancmt_se_code=05",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:24:27+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:19:56+09:00",
+      "isNew": false
     },
     {
       "id": "ggi-hanam-lib::28959dc789",
@@ -425,8 +493,8 @@
       "url": "https://www.hanam.go.kr/www/selectGosiData.do?key=172&not_ancmt_mgt_no=53252&not_ancmt_se_code=05",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:24:30+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:20:00+09:00",
+      "isNew": false
     },
     {
       "id": "sel-edu-djlib::14bbefdc21",
@@ -434,14 +502,14 @@
       "region": "서울",
       "district": "동작구",
       "source": "동작도서관(교육청)",
-      "title": "[채용안내] 2027년 동작도서관 자료실 단시간 근로자 채용 안내: 11. 25(수)~11. 30.(월) 작성자 주무관(서무행정) 작성일 2026.11.20 08:39 조회수 951",
+      "title": "[변경][채용안내] 2027년 동작도서관 자료실 단시간 근로자 채용 안내: 11. 25(수)~11. 30.(월) 작성자 주무관(서무행정) 작성일 2026.11.20 08:39 조회수 1,125",
       "jobType": "알바",
       "posted": "2026-11-20",
       "deadline": "2026-11-30",
       "url": "https://djlib.sen.go.kr/djlib/board/view.do?menu_idx=25&board_idx=1760916&manage_idx=619",
       "firstSeen": "2026-11-21",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:11:10+09:00",
+      "scrapedAt": "2026-11-25T05:09:31+09:00",
       "isNew": false
     },
     {
@@ -454,10 +522,10 @@
       "jobType": "계약",
       "posted": "2026-11-20",
       "deadline": "2026-11-27",
-      "url": "https://www.bucheon.go.kr/site/program/board/basicboard/view?menuid=148002004001&pagesize=10&boardtypeid=26756&encid=upgs6+qtVq2+xqVXI6tFDg==",
+      "url": "https://www.bucheon.go.kr/site/program/board/basicboard/view?currentpage=2&menuid=148002004001&pagesize=10&boardtypeid=26756&encid=upgs6+qtVq2+xqVXI6tFDg==",
       "firstSeen": "2026-11-21",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:17:58+09:00",
+      "scrapedAt": "2026-11-25T05:14:18+09:00",
       "aliases": [
         {
           "source": "부천시립도서관(시 직영)",
@@ -479,7 +547,7 @@
       "url": "https://gmlib.gm.go.kr/front/index.php?g_page=open&m_page=open01&page=1&bb_code=10g90ls03za91ad&view=read&field=sub|con&wd=85&bvLib=85",
       "firstSeen": "2026-11-21",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:20:54+09:00",
+      "scrapedAt": "2026-11-25T05:16:39+09:00",
       "isNew": false
     },
     {
@@ -495,7 +563,7 @@
       "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1094&q_bbsDocNo=20261120095913591",
       "firstSeen": "2026-11-21",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:27:44+09:00",
+      "scrapedAt": "2026-11-25T05:23:06+09:00",
       "isNew": false
     },
     {
@@ -511,7 +579,7 @@
       "url": "https://lib.yongin.go.kr/intro/menu/10095/bbs/21108/bbsPostDetail.do?postIdx=400400&manageCd=ALL",
       "firstSeen": "2026-11-20",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:17:23+09:00",
+      "scrapedAt": "2026-11-25T05:13:46+09:00",
       "isNew": false
     },
     {
@@ -527,7 +595,7 @@
       "url": "https://lib.gjcity.go.kr/lay1/bbs/S1T82C3521/H/1/view.do?article_seq=66096&child=&cpage=&rows=&condition=&keyword=",
       "firstSeen": "2026-11-20",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:26:35+09:00",
+      "scrapedAt": "2026-11-25T05:22:01+09:00",
       "isNew": false
     },
     {
@@ -543,7 +611,7 @@
       "url": "https://lib.gjcity.go.kr/lay1/bbs/S1T82C3521/H/1/view.do?article_seq=66095&child=&cpage=2&rows=10&condition=&keyword=",
       "firstSeen": "2026-11-20",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:26:40+09:00",
+      "scrapedAt": "2026-11-25T05:22:08+09:00",
       "isNew": false
     },
     {
@@ -559,7 +627,7 @@
       "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35776&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-19",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:02:59+09:00",
+      "scrapedAt": "2026-11-25T05:03:07+09:00",
       "isNew": false
     },
     {
@@ -575,7 +643,7 @@
       "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35775&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-19",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:03:02+09:00",
+      "scrapedAt": "2026-11-25T05:03:14+09:00",
       "isNew": false
     },
     {
@@ -591,7 +659,7 @@
       "url": "https://www.eplib.or.kr/intro/menu/10041/bbs/20002/bbsPostDetail.do?bbsPostIdx=237305&manageCd=ALL",
       "firstSeen": "2026-11-19",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:04:01+09:00",
+      "scrapedAt": "2026-11-25T05:04:05+09:00",
       "isNew": false
     },
     {
@@ -607,7 +675,7 @@
       "url": "https://lib.goe.go.kr/gj/board/view.do?menu_idx=40&manage_idx=50&board_idx=205092&viewPage=1&category1=",
       "firstSeen": "2026-11-19",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:15:50+09:00",
+      "scrapedAt": "2026-11-25T05:12:16+09:00",
       "isNew": false
     },
     {
@@ -623,7 +691,7 @@
       "url": "https://www.osanlibrary.go.kr/intro/menu/10050/bbs/20001/bbsPostDetail.do?postIdx=543177&manageCd=ALL",
       "firstSeen": "2026-11-19",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:23:25+09:00",
+      "scrapedAt": "2026-11-25T05:18:58+09:00",
       "isNew": false
     },
     {
@@ -638,8 +706,8 @@
       "deadline": "2026-11-27",
       "url": "https://www.gclib.go.kr/lib/menu/10099/bbs/20001/bbsPostDetail.do?postIdx=24306&manageCd=ALL",
       "firstSeen": "2026-11-19",
-      "status": "upcoming",
-      "scrapedAt": "2026-11-24T05:24:46+09:00",
+      "status": "open",
+      "scrapedAt": "2026-11-25T05:20:16+09:00",
       "isNew": false
     },
     {
@@ -655,7 +723,7 @@
       "url": "https://lib.gjcity.go.kr/lay1/bbs/S1T82C3521/H/1/view.do?article_seq=66087&child=&cpage=&rows=&condition=&keyword=",
       "firstSeen": "2026-11-19",
       "status": "upcoming",
-      "scrapedAt": "2026-11-24T05:26:30+09:00",
+      "scrapedAt": "2026-11-25T05:21:52+09:00",
       "isNew": false
     },
     {
@@ -671,7 +739,7 @@
       "url": "https://lib.gjcity.go.kr/lay1/bbs/S1T82C3521/H/1/view.do?article_seq=66083&child=&cpage=&rows=&condition=&keyword=",
       "firstSeen": "2026-11-19",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:26:32+09:00",
+      "scrapedAt": "2026-11-25T05:21:59+09:00",
       "isNew": false
     },
     {
@@ -687,7 +755,7 @@
       "url": "https://gmlib.gm.go.kr/front/index.php?g_page=open&m_page=open01&page=1&bb_code=10gb0ls03fa7742&view=read&field=sub|con&wd=85&bvLib=85",
       "firstSeen": "2026-11-18",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:20:58+09:00",
+      "scrapedAt": "2026-11-25T05:16:42+09:00",
       "isNew": false
     },
     {
@@ -703,7 +771,7 @@
       "url": "https://lib.goe.go.kr/hs/board/view.do?menu_idx=40&manage_idx=1&board_idx=205040&viewPage=1&category1=",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:15:53+09:00",
+      "scrapedAt": "2026-11-25T05:12:19+09:00",
       "isNew": false
     },
     {
@@ -719,7 +787,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/ot9d31rcf5gqdtw7?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-11",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:21:41+09:00",
+      "scrapedAt": "2026-11-25T05:17:16+09:00",
       "isNew": false
     },
     {
@@ -735,7 +803,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/aermfsr4cdzbryub?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:21:52+09:00",
+      "scrapedAt": "2026-11-25T05:17:24+09:00",
       "isNew": false
     },
     {
@@ -751,7 +819,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/9i40vah1gu3ry3b4?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:21:59+09:00",
+      "scrapedAt": "2026-11-25T05:17:30+09:00",
       "isNew": false
     },
     {
@@ -767,7 +835,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/9f5ngqzdwadimlq9?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:22:05+09:00",
+      "scrapedAt": "2026-11-25T05:17:37+09:00",
       "isNew": false
     },
     {
@@ -783,23 +851,39 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/739ohdmal287d7dw?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:22:12+09:00",
+      "scrapedAt": "2026-11-25T05:17:45+09:00",
       "isNew": false
     },
     {
-      "id": "sel-edu-gdlib::52c759ad9f",
-      "sid": "sel-edu-gdlib",
+      "id": "sel-seongdong-sdfac::d991e210aa",
+      "sid": "sel-seongdong-sdfac",
       "region": "서울",
-      "district": "강동구",
-      "source": "강동도서관(교육청)",
-      "title": "2026년도 서울특별시교육청강동도서관 자료실 단시간 근로자 채용 공고",
-      "jobType": "알바",
-      "posted": "2025-11-24",
-      "deadline": "2026-11-28",
-      "url": "https://gdlib.sen.go.kr/gdlib/board/view.do?menu_idx=25&board_idx=1709292&manage_idx=52",
-      "firstSeen": "2026-09-05",
+      "district": "성동구",
+      "source": "성동문화재단",
+      "title": "2026-54-1 경력 (재)성동문화재단 직원 채용 공고(기간제계약직/육아대체/사서) (기간제계약직/육아대체/사서)",
+      "jobType": "계약",
+      "posted": null,
+      "deadline": null,
+      "url": "https://www.sdfac.or.kr/kor/recruit/app/empmn_view.do?pblanc_no=2026-54&realm_no=1",
+      "firstSeen": "2026-11-25",
       "status": "open",
-      "scrapedAt": "2026-11-24T05:06:55+09:00",
+      "scrapedAt": "2026-11-25T05:02:52+09:00",
+      "isNew": true
+    },
+    {
+      "id": "sel-portal-saramin::92b3935218",
+      "sid": "sel-portal-saramin",
+      "region": "경기",
+      "district": "수원시",
+      "source": "통합포털 도서관/사서(사람인)",
+      "title": "[수원/주5일]성균관대학교 사서직 채용(육아휴직 대체)",
+      "jobType": "계약",
+      "posted": null,
+      "deadline": null,
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55547053",
+      "firstSeen": "2026-11-12",
+      "status": "open",
+      "scrapedAt": "2026-11-25T05:05:01+09:00",
       "isNew": false
     },
     {
@@ -817,7 +901,7 @@
       "status": "open",
       "id": "records-saramin::437aa8a535",
       "firstSeen": "2026-11-17",
-      "scrapedAt": "2026-11-24T05:30:06+09:00",
+      "scrapedAt": "2026-11-25T05:25:21+09:00",
       "isNew": false
     },
     {
@@ -835,8 +919,8 @@
       "status": "open",
       "id": "records-saramin::f535ba559e",
       "firstSeen": "2026-11-24",
-      "scrapedAt": "2026-11-24T05:30:06+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-25T05:25:21+09:00",
+      "isNew": false
     },
     {
       "sid": "records-saramin",
@@ -853,7 +937,7 @@
       "status": "open",
       "id": "records-saramin::8541deb770",
       "firstSeen": "2026-11-03",
-      "scrapedAt": "2026-11-24T05:30:06+09:00",
+      "scrapedAt": "2026-11-25T05:25:21+09:00",
       "isNew": false
     },
     {
@@ -871,7 +955,7 @@
       "status": "open",
       "id": "records-saramin::36989c1f49",
       "firstSeen": "2026-11-14",
-      "scrapedAt": "2026-11-24T05:30:06+09:00",
+      "scrapedAt": "2026-11-25T05:25:21+09:00",
       "isNew": false
     },
     {
@@ -884,12 +968,12 @@
       "jobType": "계약",
       "spec": false,
       "posted": null,
-      "deadline": null,
+      "deadline": "2026-12-03",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55610815",
-      "status": "upcoming",
+      "status": "open",
       "id": "records-saramin::93c85d4843",
       "firstSeen": "2026-11-19",
-      "scrapedAt": "2026-11-24T05:30:06+09:00",
+      "scrapedAt": "2026-11-25T05:25:21+09:00",
       "isNew": false
     },
     {
@@ -907,7 +991,7 @@
       "status": "open",
       "id": "records-saramin::0b6806b2fc",
       "firstSeen": "2026-11-20",
-      "scrapedAt": "2026-11-24T05:30:06+09:00",
+      "scrapedAt": "2026-11-25T05:25:21+09:00",
       "isNew": false
     }
   ]
