@@ -90,8 +90,26 @@ def main():
                              f"{len(unread):>8} | {'있음' if has_log else '없음'} | {', '.join(fails)}")
             cur -= timedelta(days=1)
     (out / "_요약.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"수집 기록 {len(summary)}건 확인 · 새 로그 파일 {made}개 · 저장 위치: {out}")
+    msg = f"수집 기록 {len(summary)}건 확인 · 새 로그 파일 {made}개" + ("" if ref != "HEAD" else " (GitHub 연결 실패 — 이 PC 이력만)")
+    print(f"{msg} · 저장 위치: {out}")
+    return out, msg
+
+
+def _stamp(out, msg):
+    """예약 작업은 화면 없이 돌므로 실행 결과를 한 줄씩 남긴다(최신이 아래)."""
+    try:
+        from datetime import datetime
+        with open(out / "_받기기록.txt", "a", encoding="utf-8") as f:
+            f.write(f"{datetime.now():%Y-%m-%d %H:%M} | {msg}\n")
+    except OSError:
+        pass
 
 
 if __name__ == "__main__":
-    main()
+    target = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_OUT
+    try:
+        _stamp(*main())
+    except Exception as e:   # 실패도 기록에 남긴다(조용히 멈추지 않게)
+        target.mkdir(parents=True, exist_ok=True)
+        _stamp(target, f"실패: {type(e).__name__}: {str(e)[:150]}")
+        raise
