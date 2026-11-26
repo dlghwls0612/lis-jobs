@@ -24,7 +24,10 @@ def crawl_saramin(settings, keywords=None):
     """사람인에서 서울·경기 기록관리(전문요원, 연구사, 아키비스트 등) 채용공고 수집."""
     if keywords is None:
         # '기록물'(2026-11-26 추가): '기록물 디지털화'처럼 '관리'가 안 붙은 공고까지 넓게 받는다
-        keywords = ["기록물관리", "기록물", "기록연구", "아키비스트", "기록관리전문요원"]
+        # '디지털아카이브'·'메타데이터'(2026-11-26 추가): 방송사 디지털아카이브부 메타데이터 공고 등.
+        #  '아카이브' 단독 검색은 80건 중 3건만 관련(나머지 패션·카페 브랜드)이라 넣지 않는다.
+        keywords = ["기록물관리", "기록물", "기록연구", "아키비스트", "기록관리전문요원",
+                    "디지털아카이브", "메타데이터"]
 
     jobs = []
     seen_ids = set()
@@ -97,7 +100,9 @@ def crawl_saramin(settings, keywords=None):
 
                 # 2. 기록관리 관련성 확인
                 full_text = f"{title} {corp} {cond_text}"
-                if not classify.is_records_relevant(title, full_text, settings, organization=corp):
+                sec_el = item.select_one(".job_sector")   # 사람인 직무 태그(업무 종류)
+                tags = [x.get_text(strip=True) for x in sec_el.select("a")] if sec_el else []
+                if not classify.is_records_relevant(title, full_text, settings, organization=corp, tags=tags):
                     continue
 
                 # 3. 서울·경기 지역 판별

@@ -869,6 +869,27 @@ def appointment_date_from_title(title):
     return _compose_md(int(m.group(2)), int(m.group(3)), 2000 + int(m.group(1)), None)
 
 
+# ── 사람인 '도서관사서' 분류 목록에서 제목에 사서·도서관이 없는 공고 보강(2026-11-26)
+# 제목엔 '문헌정보과/도서정보학' 우대만 적힌 공고(동아일보 사무보조)는 제목으로 통과.
+SARAMIN_LIB_TITLE_WORDS = ("문헌정보", "도서정보")
+# 그래도 없으면 본문을 열어 사서 자리가 있는지 본다('영등포문화재단 신규직원 22명' = 본문에 사서 4종).
+# '사서자격증 우대'만 있는 다른 직무(웹사이트 운영직)는 사서 자리로 치지 않는다.
+_SARAMIN_LIB_BODY = re.compile(r"사서(?!\s*자격)")
+
+
+def saramin_detail_url(url):
+    """사람인 공고 링크 → 본문만 담긴 주소(공고 화면의 본문은 스크립트로 따로 불러와 httpx 로는 비어 있다)."""
+    m = re.search(r"rec_idx=(\d+)", url or "")
+    return (f"https://www.saramin.co.kr/zf_user/jobs/relay/view-detail?rec_idx={m.group(1)}&rec_seq=0"
+            if m else None)
+
+
+def saramin_body_has_librarian(html):
+    """사람인 공고 본문에 사서 자리가 있는가(자격증 우대 문구는 제외)."""
+    text = BeautifulSoup(html or "", "lxml").get_text(" ", strip=True)
+    return bool(_SARAMIN_LIB_BODY.search(text))
+
+
 _SARAMIN_DDAY = re.compile(r"D-(\d+)")
 # 지역명 → (region, 서울/경기 여부). 사이트 탭이 서울/경기뿐이라 그 외 지역은 버림.
 _SARAMIN_REGION = {"서울": "서울", "경기": "경기"}

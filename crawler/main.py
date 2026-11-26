@@ -97,6 +97,29 @@ def _now():
     return datetime.now(KST)
 
 
+# ── 수집 로그 보존(2026-11-26). 화면에 찍히는 내용을 그대로 모아 jobs.json 의 meta.log 에 넣는다.
+# jobs.json 은 NAS 가 매일 GitHub 에 올리므로 날짜별 로그가 저장소 이력에 자동으로 쌓이고,
+# 이 PC 에서는 그 이력을 꺼내 날짜별 파일로 풀면 된다(NAS 작업 설정은 그대로 둠).
+LOG_MAX_CHARS = 60000   # 사이트가 읽는 파일이라 상한(평소 하루 로그는 이보다 훨씬 작음)
+
+
+class _Tee:
+    """print 출력을 원래 화면에도 내보내면서 사본을 모은다."""
+    def __init__(self, orig):
+        self.orig, self.buf = orig, []
+
+    def write(self, s):
+        self.buf.append(s)
+        return self.orig.write(s)
+
+    def flush(self):
+        self.orig.flush()
+
+    def text(self):
+        t = "".join(self.buf)
+        return t if len(t) <= LOG_MAX_CHARS else "…(앞부분 생략)\n" + t[-LOG_MAX_CHARS:]
+
+
 def _needs_library_kw(s):
     """도서관/사서 키워드 필수 여부. (URL 도메인 기준 = 이름 오탐 방지)
     - 도서관 자체 도메인(host에 lib/library) 또는 교육청 sen, scope:library → 전수 수집(False)
@@ -293,7 +316,22 @@ def crawl(cfg, limit=None, only=None, details=True, out=OUT):
                 continue
             if _needs_library_kw(s) and not (
                 classify.is_library_relevant(title, settings) or "사서" in title or "도서관" in title):
-                continue
+                # 사람인 '도서관사서' 분류 공고는 제목에 없어도 한 번 더 본다(2026-11-26):
+                # 제목의 '문헌정보·도서정보' 또는 본문의 사서 자리(영등포문화재단 22명 공고)
+                if not is_saramin:
+                    continue
+                if not any(k in title for k in parsers.SARAMIN_LIB_TITLE_WORDS):
+                    body_url = parsers.saramin_detail_url(c["url"])
+                    if not (details and body_url and details_used < DETAIL_CAP):
+                        continue
+                    details_used += 1
+                    try:
+                        time.sleep(delay)
+                        if not parsers.saramin_body_has_librarian(
+                                fetchmod.fetch(body_url, "httpx", settings)):
+                            continue
+                    except Exception:
+                        continue
 
             deadline = c.get("deadline")   # 사람인은 D-day에서 이미 확보
             # ── 상세 진입 '전에' 제목만으로 확정되는 만료를 먼저 걸러낸다.
@@ -407,6 +445,13 @@ def crawl(cfg, limit=None, only=None, details=True, out=OUT):
             for j in got:
                 canon = parsers.canon_url(j["url"])
                 first_seen = prev_first.get(canon) or today_str
+                # 마감일을 못 읽었으면 제목에 적힌 마감('[~11/24]' 등)으로 보조 판정 — 도서관 쪽과 같은 규칙
+                # (2026-11-26: 제목에 11/24 마감이 적힌 KBS 공고가 지난 뒤에도 남아 있던 결함)
+                if j["deadline"] is None:
+                    title_dl = parsers.deadline_from_title(j["title"], j["posted"], _now().year)
+                    if classify.is_expired(title_dl):
+                        continue
+                    j["deadline"] = title_dl
                 if j["deadline"] is None and classify.is_safety_expired(j["posted"] or first_seen, settings):
                     continue
                 j.update(id=_mk_id(sid, canon), firstSeen=first_seen,
@@ -471,11 +516,14 @@ def crawl(cfg, limit=None, only=None, details=True, out=OUT):
               + (f" · 상세 진입 상한({DETAIL_CAP}) 도달 소스 {len(capped)}곳" if capped else ""))
         for c in capped:
             print(f"  · {c['name']} (후보 {c['cands']}건)")
-    write(cfg, uniq, fail_names, out=out, unreadable=unreadable, rec_count=rec_count)
+    # 건강검진을 먼저 찍어야 그 내용까지 로그(meta.log)에 들어간다
     _report(health, len(uniq), results)
+    tee = sys.stdout if isinstance(sys.stdout, _Tee) else None
+    write(cfg, uniq, fail_names, out=out, unreadable=unreadable, rec_count=rec_count,
+          log=tee.text() if tee else None)
 
 
-def write(cfg, jobs, failures=None, out=OUT, unreadable=None, rec_count=None):
+def write(cfg, jobs, failures=None, out=OUT, unreadable=None, rec_count=None, log=None):
     out.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "meta": {
@@ -491,6 +539,8 @@ def write(cfg, jobs, failures=None, out=OUT, unreadable=None, rec_count=None):
     # 이 표시가 있어야 사이트가 기록관리 탭을 이 파일에서 읽는다(없으면 옛 archivescrawler 주소로)
     if rec_count is not None:
         payload["meta"]["records"] = {"job_count": rec_count}
+    if log:
+        payload["meta"]["log"] = log   # 그날 수집 로그 전문(사이트 화면에는 안 씀)
     with open(out, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
     print(f"\n{out.name} 작성: {out} (공고 {len(jobs)}건)")
@@ -542,6 +592,7 @@ def main():
     print("검증 통과 [OK]")
 
     if args.crawl:
+        sys.stdout = _Tee(sys.stdout)   # 이 시점부터 찍히는 내용을 meta.log 로 보존
         summarize(cfg)
         # 일부 소스만 돌린 결과를 jobs.json 에 쓰면 나머지 도서관 공고가 전부 날아간다.
         # (재사용 안전장치는 '수집 실패' 소스만 살리므로, 아예 안 돈 소스는 못 살린다)

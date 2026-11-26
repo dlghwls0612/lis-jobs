@@ -21,9 +21,37 @@ def is_result_post(title, settings):
 NAME_WORDS = ["아키비스트", "아카비스트", "아카이브"]
 
 
-def is_records_relevant(title, body="", settings=None, organization=""):
+def is_records_relevant(title, body="", settings=None, organization="", tags=None):
     """기록관리(기록연구사, 전문요원, 아키비스트 등) 관련 공고인지 판별.
-    organization 을 주면, 회사명에 든 NAME_WORDS 는 제목·본문에서 지우고 나머지 단어로만 판정한다."""
+    organization 을 주면, 회사명에 든 NAME_WORDS 는 제목·본문에서 지우고 나머지 단어로만 판정한다.
+    tags = 사람인 직무 태그 목록(있을 때만). 약한 단어 규칙은 records.yaml 의 keywords_weak 설명 참조."""
+    if _strong_relevant(title, body, settings, organization):
+        return True
+    return _weak_relevant(title, settings or {}, organization, tags or [])
+
+
+def _weak_relevant(title, settings, organization, tags):
+    """약한 단어(아카이브·메타데이터 등) 규칙: 직무 태그 또는 '약한 단어 + 업무 단어'일 때만, 차단 태그 없을 때."""
+    if any(ex in title for ex in settings.get("keywords_exclude", [])):
+        return False
+    for w in NAME_WORDS:                      # 회사명 속 직무어는 근거 아님
+        if organization and w in organization.replace(" ", ""):
+            title = title.replace(w, " ")
+    weak = settings.get("keywords_weak", [])
+    if organization:                          # 약한 단어가 회사명에 들어 있으면 그 단어도 근거 아님
+        org = organization.replace(" ", "")
+        weak = [w for w in weak if w not in org]
+    work = settings.get("weak_work_words", [])
+    tag_ok = bool(set(settings.get("strong_tags", [])) & set(tags))
+    title_ok = any(w in title for w in weak) and any(x in title for x in work)
+    if not (tag_ok or title_ok):
+        return False
+    block = settings.get("block_tag_parts", [])
+    return not any(p in t for t in tags for p in block)
+
+
+def _strong_relevant(title, body="", settings=None, organization=""):
+    """기존 규칙(강한 단어). 회사명 속 직무어는 지우고 판정."""
     settings = settings or {}
     excludes = settings.get("keywords_exclude", [])
     includes = settings.get("keywords_include", [])
