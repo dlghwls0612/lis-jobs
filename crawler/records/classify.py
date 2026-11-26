@@ -16,13 +16,25 @@ def is_result_post(title, settings):
     return any(k in title for k in kws)
 
 
-def is_records_relevant(title, body="", settings=None):
-    """기록관리(기록연구사, 전문요원, 아키비스트 등) 관련 공고인지 판별."""
+# 회사·매장 이름으로도 흔히 쓰이는 직무어. 회사명에 들어 있으면 그 공고에서는 이 단어를 근거로 치지 않는다
+# (2026-11-26: 베이커리·카페 회사 '아키비스트(Archivist)'의 송파점 매장 서비스직이 기록관리 탭에 들어온 결함).
+NAME_WORDS = ["아키비스트", "아카비스트", "아카이브"]
+
+
+def is_records_relevant(title, body="", settings=None, organization=""):
+    """기록관리(기록연구사, 전문요원, 아키비스트 등) 관련 공고인지 판별.
+    organization 을 주면, 회사명에 든 NAME_WORDS 는 제목·본문에서 지우고 나머지 단어로만 판정한다."""
     settings = settings or {}
     excludes = settings.get("keywords_exclude", [])
     includes = settings.get("keywords_include", [])
 
     full_text = f"{title} {body}"
+
+    # 0. 회사명이 직무어를 품고 있으면(예: 아키비스트(Archivist)) 그 단어는 판정 근거에서 뺀다
+    brand = [w for w in NAME_WORDS if organization and w in organization]
+    for w in brand:
+        title = title.replace(w, " ")
+        full_text = full_text.replace(w, " ")
 
     # 1. 제외 키워드가 제목이나 본문에 있으면 탈락
     if any(ex in title for ex in excludes):

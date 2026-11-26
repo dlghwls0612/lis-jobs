@@ -23,7 +23,8 @@ SARAMIN_REGION = {
 def crawl_saramin(settings, keywords=None):
     """사람인에서 서울·경기 기록관리(전문요원, 연구사, 아키비스트 등) 채용공고 수집."""
     if keywords is None:
-        keywords = ["기록물관리", "기록연구", "아키비스트", "기록관리전문요원"]
+        # '기록물'(2026-11-26 추가): '기록물 디지털화'처럼 '관리'가 안 붙은 공고까지 넓게 받는다
+        keywords = ["기록물관리", "기록물", "기록연구", "아키비스트", "기록관리전문요원"]
 
     jobs = []
     seen_ids = set()
@@ -64,9 +65,16 @@ def crawl_saramin(settings, keywords=None):
                 if not title_el:
                     continue
 
-                title = title_el.get_text(strip=True)
+                # 링크의 title 속성 = 원래 제목. 글자만 이어 붙이면 검색어 강조(<b>) 앞뒤 띄어쓰기가 사라진다
+                # ('현대자동차기록물디지털화', '아키비스트(Archivist)아키비스트송파점')
+                title = " ".join(str(title_el.get("title") or title_el.get_text(" ")).split())
                 corp = corp_el.get_text(strip=True) if corp_el else "기관명 미확인"
                 loc_text = loc_el.get_text(strip=True) if loc_el else ""
+                if not loc_text and cond_el:
+                    # 2026-11 사람인 검색결과에는 .work_place 가 없고 근무지가 .job_condition 첫 칸에 있다
+                    # (이걸 못 읽으면 아래에서 지역을 무조건 '서울'로 붙여 경기 공고가 서울로 표시된다)
+                    first = cond_el.select_one("span")
+                    loc_text = first.get_text(" ", strip=True) if first else ""
                 cond_text = cond_el.get_text(" ", strip=True) if cond_el else ""
                 raw_date = date_el.get_text(strip=True) if date_el else ""
 
@@ -89,7 +97,7 @@ def crawl_saramin(settings, keywords=None):
 
                 # 2. 기록관리 관련성 확인
                 full_text = f"{title} {corp} {cond_text}"
-                if not classify.is_records_relevant(title, full_text, settings):
+                if not classify.is_records_relevant(title, full_text, settings, organization=corp):
                     continue
 
                 # 3. 서울·경기 지역 판별
