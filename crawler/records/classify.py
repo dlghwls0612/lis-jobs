@@ -80,6 +80,28 @@ def _strong_relevant(title, body="", settings=None, organization=""):
     return False
 
 
+_AREA_SPLIT_RE = re.compile(r"[,，/]")
+_ADMIN_SUFFIX_RE = re.compile(r"(?:특별자치시|특별자치도|특별시|광역시|도|시|군|구)$")
+
+
+def primary_area(area, organization="", title=""):
+    """근무지역 칸에 여러 곳이 적힌 경우 한 곳을 고른다 — 기관명·제목에 이름이 든 곳을 먼저, 없으면 첫 곳.
+    (2026-11-27: 나라일터 화성시인재육성재단 공고 근무지역이 '서울 도봉구, 서울 동작구, 경기 화성시'라
+     첫 곳만 보던 판정이 서울 도봉구로 분류했다 → 기관명의 '화성'으로 경기 화성시를 고른다.)"""
+    flat = " ".join((area or "").split())
+    parts = [" ".join(p.split()) for p in _AREA_SPLIT_RE.split(area or "")]
+    parts = [p for p in parts if p]
+    if len(parts) <= 1:
+        return flat
+    hay = f"{organization or ''} {title or ''}"
+    for p in parts:
+        for tok in reversed(p.split()):   # 작은 단위(구·시·군)부터
+            name = _ADMIN_SUFFIX_RE.sub("", tok)
+            if len(name) >= 2 and name in hay:
+                return p
+    return parts[0]
+
+
 def detect_region(title, body="", organization="", settings=None):
     """서울 또는 경기 지역인지 판별 (그 외는 None 반환)."""
     settings = settings or {}

@@ -66,6 +66,12 @@ TRAILING_METADATA_RE = re.compile(
     r"|\s*~\s*(?:\d{2,4}\s*[.\-/년]\s*)?\d{1,2}\s*[.\-/월]\s*\d{1,2}\s*일?\.?\s*(?:\([월화수목금토일]\)\.?)?\s*(?:\d{1,2}(?::\d{2}|시))?\s*(?:까지)?\s*$"
     r"|\s*\[(?:마감|접수마감|종료)\]\s*$"
 )
+# 게시판이 제목 링크 안에 넣어 둔 글 정보 꼬리 — '… 작성자 정보자료과 주무관 작성일 2026.11.23 11:09 조회수 267'
+# (2026-11-27: 교육청 영등포평생학습관·동작도서관 공고 제목에 그대로 붙어 사이트에 보였음)
+BOARD_META_TAIL_RE = re.compile(
+    r"\s+(?:(?:작성자|글쓴이|등록자)\s*:?\s*.{1,40}?\s+)?작성일\s*:?\s*20\d{2}\s*[.\-/]\s*\d{1,2}\s*[.\-/]\s*\d{1,2}"
+    r".{0,12}?(?:\s+조회수?\s*:?\s*[\d,]+)?\s*$"
+)
 
 
 def clean_display_title(title):
@@ -74,7 +80,7 @@ def clean_display_title(title):
     직무 조건(사서, 기간제, 8급 등), 소속 기관명 및 임용일은 온전하게 보존한다."""
     if not title:
         return ""
-    t = title
+    t = BOARD_META_TAIL_RE.sub("", title)
     prev = None
     while prev != t:
         prev = t
@@ -402,6 +408,20 @@ def _clean_title(t):
 #   이 추출기는 목록 행이 아니라 페이지의 모든 <a>를 훑기 때문에, 고용어 조건이
 #   네비게이션 링크('마이라이브러리'·'신착자료검색'·각 도서관 이름)를 걸러주는
 #   핵심 방어선이다. 면제하니 53개 소스에서 노이즈 후보가 2,063건 쏟아졌다.
+_DATA_URL_ATTRS = ("data-action", "data-href", "data-url", "data-link")
+
+
+def _data_attr_url(a, base_url):
+    """링크의 data-action/-href/-url/-link 속성에 든 상세 주소(경로·URL처럼 생긴 값만)."""
+    for attr in _DATA_URL_ATTRS:
+        v = (a.get(attr) or "").strip()
+        if not v or v.lower().startswith("javascript") or v.startswith("#"):
+            continue
+        if v.startswith(("/", "http://", "https://", "./", "../")) or "?" in v:
+            return urljoin(base_url, v)
+    return None
+
+
 def extract_listings(html, base_url):
     """목록 페이지 → [{title, url, posted}] 후보. 과다수집 후 classify에서 필터."""
     soup = BeautifulSoup(html, "lxml")
@@ -440,6 +460,13 @@ def extract_listings(html, base_url):
                     url = (_form_detail_url(oc, base_url, form_ctx) if form_ctx else None) \
                         or (_query_detail_url(oc, base_url, q_ctx) if q_ctx else None)
                     node, hops = node.parent, hops + 1
+            if not url:
+                # 상세 주소를 data-* 속성에 담고 스크립트로 여는 게시판(이천시청 고시공고 2026-11-27:
+                # <a href="#" data-action="/portal/saeol/gosi/view.do?notAncmtMgtNo=…" onclick="req.post(this)">,
+                # GET 으로도 상세가 열림). 다른 복원이 모두 실패했을 때만, 그리고 '#/bbs/…' 같은 프래그먼트
+                # 주소(군포 SPA)가 아닐 때만 써서 기존 소스의 공고 주소는 그대로 둔다.
+                if not (href.startswith("#") and href != "#"):
+                    url = _data_attr_url(a, base_url)
             if not url:
                 # 복원 실패 시: '#xxx' 프래그먼트는 목록 링크로라도 남김(공고 유실 방지)
                 if href.startswith("#") and href != "#":

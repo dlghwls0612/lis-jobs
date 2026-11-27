@@ -90,7 +90,7 @@ def crawl_gojobs(settings, keywords=None, max_pages=2, delay=1.0):
                         print(f"[나라일터] 상세 {item_id} 호출 실패: {e}")
                         continue
                     time.sleep(delay)
-                    area = _cell(dsoup, "근무지역")
+                    area = classify.primary_area(_cell(dsoup, "근무지역"), org, title)   # 여러 곳이면 한 곳
                     grade = _cell(dsoup, "채용직급")
                     start = parsers.normalize_date(_cell(dsoup, "접수시작일"))
                     deadline = parsers.normalize_date(_cell(dsoup, "접수마감일")) or deadline
@@ -180,7 +180,7 @@ def crawl_gojobs_library(lib_settings, rec_settings, keywords=None, max_pages=2,
                         print(f"[나라일터-도서관] 상세 {item_id} 호출 실패: {e}")
                         continue
                     time.sleep(delay)
-                    area = _cell(dsoup, "근무지역")
+                    area = classify.primary_area(_cell(dsoup, "근무지역"), org, title)   # 여러 곳이면 한 곳
                     start = parsers.normalize_date(_cell(dsoup, "접수시작일"))
                     deadline = parsers.normalize_date(_cell(dsoup, "접수마감일")) or deadline
                     if deadline and lib_classify.is_expired(deadline):

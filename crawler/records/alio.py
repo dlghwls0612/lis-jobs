@@ -67,7 +67,7 @@ def crawl_alio(settings, keywords=None, include_recent_closed=True):
                     continue
 
                 org = col_texts[3] if len(col_texts) > 3 else ""
-                location = col_texts[4] if len(col_texts) > 4 else ""
+                location = classify.primary_area(col_texts[4] if len(col_texts) > 4 else "", org, title)   # 여러 곳이면 한 곳
                 raw_jobtype = col_texts[5] if len(col_texts) > 5 else ""
                 raw_deadline = col_texts[7] if len(col_texts) > 7 else ""
                 state_text = col_texts[8] if len(col_texts) > 8 else ""
@@ -162,7 +162,7 @@ def crawl_alio_library(lib_settings, rec_settings, keywords=None):
                 seen_ids.add(item_id)
 
                 org = cols[3] if len(cols) > 3 else ""
-                location = cols[4] if len(cols) > 4 else ""
+                location = classify.primary_area(cols[4] if len(cols) > 4 else "", org, title)   # 여러 곳이면 한 곳
                 raw_deadline = cols[7] if len(cols) > 7 else ""
                 state_text = cols[8] if len(cols) > 8 else ""
 
