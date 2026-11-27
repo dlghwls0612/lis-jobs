@@ -1,18 +1,32 @@
 {
   "meta": {
     "project": "lis-jobs (서울·경기 사서·기록관리 채용 수집기)",
-    "collected_at": "2026-11-27 05:24",
-    "job_count": 75,
+    "collected_at": "2026-11-28 05:26",
+    "job_count": 97,
     "failures": [],
-    "unreadable": [
-      "이천시립도서관(시 직영)"
-    ],
+    "unreadable": [],
     "records": {
-      "job_count": 11
+      "job_count": 22
     },
-    "log": "\n총 소스: 106개\n  지역   서울:55 · 경기:46 · 사서교사:5\n  파서   egov:40 · sen:24 · custom:18 · spa:8 · incruit:5 · apijson:3 · gnuboard:3 · asp:3 · fairyhr:1 · saramin:1\n  엔진   httpx:88 · playwright:18\n\n=== 수집 시작 ===\n  · [서울/강남구] 강남문화재단 직원채용: 0건 (후보 19)\n  · [서울/강남구] 강남구립도서관 통합포털(직영): 0건 (후보 10)\n  · [서울/강동구] 강동문화재단: 0건\n  · [서울/강북구] 강북구도시관리공단: 0건 (후보 21)\n  · [서울/강서구] 강서구립도서관 통합(민간위탁): 0건 (후보 1)\n  · [서울/관악구] 관악문화재단: 0건 (후보 20)\n  · [서울/광진구] 광진구시설관리공단: 0건\n  · [서울/구로구] 구로문화원(구로구립도서관): 0건 (후보 6)\n  · [서울/금천구] 금천문화재단: 0건 (후보 5)\n  · [서울/노원구] 노원문화재단: 0건\n  · [서울/도봉구] 도봉문화재단: 0건\n  · [서울/동대문구] 동대문구시설관리공단(구립도서관 5개관): 0건\n  · [서울/동작구] 동작문화재단: 0건 (후보 12)\n  · [서울/마포구] 마포구립도서관 통합(구청 직영): 0건\n  · [서울/서대문구] 서대문구청(서대문구립도서관): 0건 (후보 2)\n  · [서울/서초구] 서초문화재단: 0건 (후보 10)\n  ✓ [서울/성동구] 성동문화재단: 1건\n  ✓ [서울/성북구] 성북문화재단: 2건\n  · [서울/송파구] 송파문화재단 도서관지원팀: 0건 (후보 3)\n  · [서울/양천구] 양천문화재단: 0건 (후보 10)\n  · [서울/영등포구] 영등포문화재단: 0건 (후보 13)\n  · [서울/용산구] 용산구시설관리공단: 0건 (후보 15)\n  ✓ [서울/용산구] 용산구청 교육지원과(작은도서관 연장사서): 1건\n  ✓ [서울/은평구] 은평구공공도서관(직영): 2건\n  · [서울/종로구] 종로문화재단: 0건 (후보 11)\n  · [서울/종로구] 종로구립도서관 통합(순회·기간제): 0건 (후보 3)\n  · [서울/중구] 중구문화재단(충무아트센터): 0건 (후보 10)\n  ✓ [서울/중랑구] 중랑문화재단: 1건\n  · [서울/전역·통합] 서울도서관(서울시립): 0건 (후보 8)\n  ✓ [서울/전역·통합] 통합포털 도서관/사서(사람인): 9건\n  · [서울/전역·통합] 국립중앙도서관: 0건 (후보 17)\n  · [서울/전역·통합] 국립어린이청소년도서관: 0건 (후보 7)\n  · [서울/전역·통합] 국립장애인도서관: 0건 (후보 7)\n  ✓ [서울/강남구] 강남도서관(교육청): 1건\n  · [서울/강남구] 개포도서관(교육청): 0건\n  ✓ [서울/강동구] 강동도서관(교육청): 1건\n  ✓ [서울/강동구] 고덕평생학습관(교육청): 1건\n  ✓ [서울/강서구] 강서도서관(교육청): 1건\n  ✓ [서울/구로구] 고척도서관(교육청): 1건\n  ✓ [서울/구로구] 구로도서관(교육청): 1건\n  ✓ [서울/용산구] 남산도서관(교육청): 1건\n  ✓ [서울/용산구] 용산도서관(교육청): 1건\n  ✓ [서울/노원구] 노원평생학습관(교육청): 1건\n  ✓ [서울/도봉구] 도봉도서관(교육청): 2건\n  · [서울/동대문구] 동대문도서관(교육청): 0건 (후보 5)\n  ✓ [서울/동작구] 동작도서관(교육청): 1건\n  ✓ [서울/마포구] 마포평생학습관(교육청): 1건\n  ✓ [서울/마포구] 마포평생학습관 아현분관(교육청): 1건\n  ✓ [서울/서대문구] 서대문도서관(교육청): 1건\n  · [서울/송파구] 송파도서관(교육청): 0건 (후보 6)\n  ✓ [서울/양천구] 양천도서관(교육청): 1건\n  ✓ [서울/종로구] 어린이도서관(교육청): 1건\n  ✓ [서울/종로구] 정독도서관(교육청): 1건\n  ✓ [서울/종로구] 종로도서관(교육청): 1건\n  ✓ [서울/영등포구] 영등포평생학습관(교육청): 1건\n  · [경기/전역·통합] 경기도서관(경기도청 직영): 0건 (후보 2)\n  · [경기/전역·통합] 경기문화재단: 0건 (후보 16)\n  ✓ [경기/전역·통합] 경기 교육도서관(교육청): 1건\n  · [경기/수원시] 수원시 도서관사업소: 0건\n  · [경기/수원시] 수원시청(사서직·임기제): 0건 (후보 21)\n  ✓ [경기/성남시] 성남시도서관사업소: 5건\n  · [경기/성남시] 성남시청(사서 공무원·기간제): 0건 (후보 1)\n  · [경기/고양시] 고양시도서관센터: 0건\n  · [경기/고양시] 고양특례시청 채용공고: 0건 (후보 18)\n  ✓ [경기/용인시] 용인시도서관사업소: 3건\n  ✓ [경기/부천시] 부천시립도서관(시 직영): 1건\n  ✓ [경기/부천시] 부천시청 채용공고: 1건\n  · [경기/부천시] 한국만화영상진흥원(만화도서관): 0건 (후보 12)\n  · [경기/부천시] 부천문화재단(예술정보도서관): 0건\n  · [경기/안산시] 안산시 도서관(직영): 0건\n  · [경기/안산시] 안산시청 채용정보: 0건 (후보 1)\n  · [경기/안양시] 안양시립도서관(시 직영): 0건 (후보 20)\n  · [경기/남양주시] 남양주시도서관(정약용도서관): 0건 (후보 9)\n  · [경기/화성시] 화성시문화관광재단(시립도서관 위탁): 0건\n  · [경기/평택시] 평택시도서관(시 직영): 0건 (후보 11)\n  · [경기/의정부시] 의정부시 도서관(시 직영): 0건 (후보 1)\n  · [경기/시흥시] 시흥시 도서관(시 직영): 0건 (후보 1)\n  ✓ [경기/광명시] 광명시립도서관(시 직영): 1건\n  ✓ [경기/군포시] 군포시도서관(시 직영): 5건\n  · [경기/이천시] 이천시립도서관(시 직영): 0건 (후보 2)\n    ⚠ 목록엔 공고 6행인데 후보 2건 — 파서 점검 필요\n  · [경기/양주시] 양주시립도서관(시 직영): 0건 (후보 10)\n  ✓ [경기/오산시] 오산시중앙도서관(시 직영): 1건\n  · [경기/구리시] 구리시립도서관(시 직영): 0건 (후보 3)\n  · [경기/안성시] 안성시립도서관(안성맞춤도서관 등): 0건 (후보 3)\n  · [경기/포천시] 포천시립도서관(시 직영): 0건 (후보 22)\n  · [경기/의왕시] 의왕시 도서관(시 직영): 0건 (후보 3)\n  ✓ [경기/하남시] 하남시 도서관(하남문화재단 운영): 2건\n  · [경기/동두천시] 동두천시립도서관(시 직영): 0건 (후보 18)\n  ✓ [경기/과천시] 과천시 정보과학도서관(시 직영): 1건\n  ✓ [경기/파주시] 파주중앙도서관(시 직영): 3건\n  · [경기/양평군] 양평군립도서관(군 직영): 0건 (후보 1)\n  ✓ [경기/가평군] 가평군립도서관(군 직영): 2건\n  · [경기/연천군] 연천군립도서관(군 직영): 0건 (후보 4)\n  · [경기/김포시] 김포시립도서관(장기도서관 등): 0건 (후보 2)\n  · [경기/김포시] 김포시청 채용공고: 0건 (후보 23)\n  · [경기/김포시] 김포문화재단 직원채용: 0건 (후보 14)\n  ✓ [경기/광주시] 광주시립도서관(중앙도서관 등): 3건\n  · [경기/광주시] 광주시청 채용시험정보: 0건 (후보 10)\n  ✓ [경기/광주시] 광주시문화재단(남한산성아트홀): 1건\n  · [경기/여주시] 여주시립도서관(여주도서관 등): 0건 (후보 3)\n  · [경기/여주시] 여주시청 시험정보: 0건 (후보 15)\n  · [사서교사/서울] 기간제 사서교사(서울교육일자리포털): 0건 (후보 2)\n  ✓ [사서교사/서울] 정교사 임용(서울시교육청): 1건\n  · [사서교사/경기] 기간제 사서교사(경기도교육청 구인구직): 0건 (후보 1)\n  · [사서교사/경기] 정교사 임용(경기도교육청): 0건 (후보 20)\n  · [사서교사/서울] 교육공무직 사서실무사(서울시교육청): 0건 (후보 1)\n\n=== 기록관리 수집 ===\n  · [기록관리] 기록관리·한국기록전문가협회: 0건\n  · [기록관리] 기록관리·잡알리오: 0건\n  · [기록관리] 기록관리·나라일터: 0건\n  ✓ [기록관리] 기록관리·사람인: 11건\n\n[파서 점검 필요] 1곳 — 목록에 보이는 공고를 제대로 못 읽음:\n  · 이천시립도서관(시 직영) (ggi-icheon-lib) — 공고 행 6개 중 후보 2건\n      4518 이천시 공고 제2026-3258호 2027년 이천시립서희도서관 기간제 및 초단시간근로자 채용 공고 도서관과 494 2026-11-25\n      4517 이천시 공고 제2026-3256호 2027년 마장도서관 초단시간 근로자 채용 공고 도서관과 158 2026-11-25\n      4516 이천시 공고 제2026-3239호 2027년 이천시립청미도서관 초단시간 근로자 채용 공고 도서관과 152 2026-11-25\n\n[마감일 미확인] 18건 / 전체 75건\n\n=== 건강검진 ===  소스 110 · 성공 41 · 0건 69 · fetch실패 0 · 결과공고제외 296\n  [ZERO] sel-gangnam-gfac — cands=19 kept=0 pages=2\n  [ZERO] sel-gangnam-gnlib-hub — cands=10 kept=0 pages=1\n  [ZERO] sel-gangdong-gdfac — cands=0 kept=0 pages=1\n  [ZERO] sel-gangbuk-gbcmc — cands=21 kept=0 pages=2\n  [ZERO] sel-gangseo-lib — cands=1 kept=0 pages=3\n  [ZERO] sel-gwanak-gfac — cands=20 kept=0 pages=2\n  [ZERO] sel-gwangjin-fmc — cands=0 kept=0 pages=1\n  [ZERO] sel-guro-cc — cands=6 kept=0 pages=1\n  [ZERO] sel-geumcheon-gcfac — cands=5 kept=0 pages=1\n  [ZERO] sel-nowon-arts — cands=0 kept=0 pages=1\n  [ZERO] sel-dobong-dbfac — cands=0 kept=0 pages=1\n  [ZERO] sel-ddm-dfmc — cands=0 kept=0 pages=2\n  [ZERO] sel-dongjak-idfac — cands=12 kept=0 pages=1\n  [ZERO] sel-mapo-lib — cands=0 kept=0 pages=1\n  [ZERO] sel-sdm-gu — cands=2 kept=0 pages=2\n  [ZERO] sel-seocho-cf — cands=10 kept=0 pages=1\n  [ZERO] sel-songpa-fac — cands=3 kept=0 pages=1\n  [ZERO] sel-yangcheon-yfac — cands=10 kept=0 pages=1\n  [ZERO] sel-ydp-ydpcf — cands=13 kept=0 pages=1\n  [ZERO] sel-yongsan-fmc — cands=15 kept=0 pages=2\n  [ZERO] sel-jongno-jfac — cands=11 kept=0 pages=1\n  [ZERO] sel-jongno-lib — cands=3 kept=0 pages=2\n  [ZERO] sel-junggu-caci — cands=10 kept=0 pages=1\n  [ZERO] sel-seoullib — cands=8 kept=0 pages=1\n  [ZERO] sel-nl — cands=17 kept=0 pages=2\n  [ZERO] sel-nlcy — cands=7 kept=0 pages=1\n  [ZERO] sel-nld — cands=7 kept=0 pages=1\n  [ZERO] sel-edu-gplib — cands=0 kept=0 pages=2\n  [ZERO] sel-edu-ddmlib — cands=5 kept=0 pages=1\n  [ZERO] sel-edu-splib — cands=6 kept=0 pages=1\n  [ZERO] ggi-ggl — cands=2 kept=0 pages=1\n  [ZERO] ggi-ggcf — cands=16 kept=0 pages=1\n  [ZERO] ggi-suwon-lib — cands=0 kept=0 pages=1\n  [ZERO] ggi-suwon-city — cands=21 kept=0 pages=2\n  [ZERO] ggi-seongnam-city — cands=1 kept=0 pages=2\n  [ZERO] ggi-goyang-lib — cands=0 kept=0 pages=1\n  [ZERO] ggi-goyang-city — cands=18 kept=0 pages=3\n  [ZERO] ggi-bucheon-komacon — cands=12 kept=0 pages=1\n  [ZERO] ggi-bucheon-bcf — cands=0 kept=0 pages=1\n  [ZERO] ggi-ansan-lib — cands=0 kept=0 pages=2\n  [ZERO] ggi-ansan-city — cands=1 kept=0 pages=3\n  [ZERO] ggi-anyang-lib — cands=20 kept=0 pages=2\n  [ZERO] ggi-namyangju-lib — cands=9 kept=0 pages=1\n  [ZERO] ggi-hwaseong-hcf — cands=0 kept=0 pages=1\n  [ZERO] ggi-pyeongtaek-lib — cands=11 kept=0 pages=1\n  [ZERO] ggi-uijeongbu-lib — cands=1 kept=0 pages=1\n  [ZERO] ggi-siheung-lib — cands=1 kept=0 pages=2\n  [ZERO] ggi-icheon-lib — cands=2 kept=0 pages=2\n  [UNREADABLE] ggi-icheon-lib — 목록엔 공고 행 6개인데 후보 2개 — 파서 점검 필요\n  [ZERO] ggi-yangju-lib — cands=10 kept=0 pages=1\n  [ZERO] ggi-guri-lib — cands=3 kept=0 pages=1\n  [ZERO] ggi-anseong-lib — cands=3 kept=0 pages=3\n  [ZERO] ggi-pocheon-lib — cands=22 kept=0 pages=3\n  [ZERO] ggi-uiwang-lib — cands=3 kept=0 pages=1\n  [ZERO] ggi-ddc-lib — cands=18 kept=0 pages=3\n  [ZERO] ggi-yp-lib — cands=1 kept=0 pages=2\n  [ZERO] ggi-ycheon-lib — cands=4 kept=0 pages=1\n  [ZERO] ggi-gimpo-lib — cands=2 kept=0 pages=3\n  [ZERO] ggi-gimpo-city — cands=23 kept=0 pages=3\n  [ZERO] ggi-gimpo-gcf — cands=14 kept=0 pages=3\n  [ZERO] ggi-gjcity-city — cands=10 kept=0 pages=2\n  [ZERO] ggi-yeoju-lib — cands=3 kept=0 pages=3\n  [ZERO] ggi-yeoju-city — cands=15 kept=0 pages=1\n  [ZERO] tea-seoul-gijegye — cands=2 kept=0 pages=2\n  [ZERO] tea-ggi-gijegye — cands=1 kept=0 pages=2\n  [ZERO] tea-ggi-imyong — cands=20 kept=0 pages=2\n  [ZERO] tea-seoul-gongmujik — cands=1 kept=0 pages=2\n  [ZERO] records-karma — kept=0\n  [ZERO] records-alio — kept=0\n  [ZERO] records-gojobs — kept=0\n"
+    "log": "\n총 소스: 106개\n  지역   서울:55 · 경기:46 · 사서교사:5\n  파서   egov:40 · sen:24 · custom:18 · spa:8 · incruit:5 · apijson:3 · gnuboard:3 · asp:3 · fairyhr:1 · saramin:1\n  엔진   httpx:88 · playwright:18\n\n=== 수집 시작 ===\n  · [서울/강남구] 강남문화재단 직원채용: 0건 (후보 19)\n  · [서울/강남구] 강남구립도서관 통합포털(직영): 0건 (후보 10)\n  · [서울/강동구] 강동문화재단: 0건\n  · [서울/강북구] 강북구도시관리공단: 0건 (후보 21)\n  · [서울/강서구] 강서구립도서관 통합(민간위탁): 0건 (후보 1)\n  · [서울/관악구] 관악문화재단: 0건 (후보 20)\n  · [서울/광진구] 광진구시설관리공단: 0건\n  · [서울/구로구] 구로문화원(구로구립도서관): 0건 (후보 6)\n  · [서울/금천구] 금천문화재단: 0건 (후보 6)\n  · [서울/노원구] 노원문화재단: 0건\n  · [서울/도봉구] 도봉문화재단: 0건\n  · [서울/동대문구] 동대문구시설관리공단(구립도서관 5개관): 0건\n  · [서울/동작구] 동작문화재단: 0건 (후보 12)\n  · [서울/마포구] 마포구립도서관 통합(구청 직영): 0건\n  · [서울/서대문구] 서대문구청(서대문구립도서관): 0건 (후보 2)\n  · [서울/서초구] 서초문화재단: 0건 (후보 10)\n  ✓ [서울/성동구] 성동문화재단: 1건\n  ✓ [서울/성북구] 성북문화재단: 2건\n  · [서울/송파구] 송파문화재단 도서관지원팀: 0건 (후보 3)\n  · [서울/양천구] 양천문화재단: 0건 (후보 10)\n  · [서울/영등포구] 영등포문화재단: 0건 (후보 13)\n  · [서울/용산구] 용산구시설관리공단: 0건 (후보 15)\n  ✓ [서울/용산구] 용산구청 교육지원과(작은도서관 연장사서): 1건\n  ✓ [서울/은평구] 은평구공공도서관(직영): 2건\n  · [서울/종로구] 종로문화재단: 0건 (후보 11)\n  · [서울/종로구] 종로구립도서관 통합(순회·기간제): 0건 (후보 3)\n  · [서울/중구] 중구문화재단(충무아트센터): 0건 (후보 10)\n  ✓ [서울/중랑구] 중랑문화재단: 1건\n  · [서울/전역·통합] 서울도서관(서울시립): 0건 (후보 8)\n  ✓ [서울/전역·통합] 통합포털 도서관/사서(사람인): 11건\n  · [서울/전역·통합] 국립중앙도서관: 0건 (후보 18)\n  · [서울/전역·통합] 국립어린이청소년도서관: 0건 (후보 7)\n  · [서울/전역·통합] 국립장애인도서관: 0건 (후보 7)\n  ✓ [서울/강남구] 강남도서관(교육청): 1건\n  · [서울/강남구] 개포도서관(교육청): 0건\n  ✓ [서울/강동구] 강동도서관(교육청): 1건\n  ✓ [서울/강동구] 고덕평생학습관(교육청): 1건\n  · [서울/강서구] 강서도서관(교육청): 0건 (후보 8)\n  ✓ [서울/구로구] 고척도서관(교육청): 1건\n  · [서울/구로구] 구로도서관(교육청): 0건 (후보 6)\n  · [서울/용산구] 남산도서관(교육청): 0건 (후보 9)\n  ✓ [서울/용산구] 용산도서관(교육청): 1건\n  · [서울/노원구] 노원평생학습관(교육청): 0건 (후보 10)\n  ✓ [서울/도봉구] 도봉도서관(교육청): 1건\n  · [서울/동대문구] 동대문도서관(교육청): 0건 (후보 5)\n  ✓ [서울/동작구] 동작도서관(교육청): 1건\n  · [서울/마포구] 마포평생학습관(교육청): 0건 (후보 7)\n  ✓ [서울/마포구] 마포평생학습관 아현분관(교육청): 1건\n  ✓ [서울/서대문구] 서대문도서관(교육청): 1건\n  · [서울/송파구] 송파도서관(교육청): 0건 (후보 6)\n  ✓ [서울/양천구] 양천도서관(교육청): 1건\n  · [서울/종로구] 어린이도서관(교육청): 0건 (후보 3)\n  · [서울/종로구] 정독도서관(교육청): 0건 (후보 8)\n  · [서울/종로구] 종로도서관(교육청): 0건 (후보 7)\n  ✓ [서울/영등포구] 영등포평생학습관(교육청): 1건\n  · [경기/전역·통합] 경기도서관(경기도청 직영): 0건 (후보 2)\n  · [경기/전역·통합] 경기문화재단: 0건 (후보 16)\n  ✓ [경기/전역·통합] 경기 교육도서관(교육청): 1건\n  · [경기/수원시] 수원시 도서관사업소: 0건\n  · [경기/수원시] 수원시청(사서직·임기제): 0건 (후보 21)\n  ✓ [경기/성남시] 성남시도서관사업소: 5건\n  · [경기/성남시] 성남시청(사서 공무원·기간제): 0건 (후보 1)\n  · [경기/고양시] 고양시도서관센터: 0건\n  · [경기/고양시] 고양특례시청 채용공고: 0건 (후보 17)\n  ✓ [경기/용인시] 용인시도서관사업소: 4건\n  · [경기/부천시] 부천시립도서관(시 직영): 0건 (후보 1)\n  · [경기/부천시] 부천시청 채용공고: 0건 (후보 30)\n  · [경기/부천시] 한국만화영상진흥원(만화도서관): 0건 (후보 13)\n  · [경기/부천시] 부천문화재단(예술정보도서관): 0건\n  · [경기/안산시] 안산시 도서관(직영): 0건\n  · [경기/안산시] 안산시청 채용정보: 0건 (후보 1)\n  · [경기/안양시] 안양시립도서관(시 직영): 0건 (후보 20)\n  · [경기/남양주시] 남양주시도서관(정약용도서관): 0건 (후보 9)\n  · [경기/화성시] 화성시문화관광재단(시립도서관 위탁): 0건\n  · [경기/평택시] 평택시도서관(시 직영): 0건 (후보 11)\n  · [경기/의정부시] 의정부시 도서관(시 직영): 0건 (후보 1)\n  · [경기/시흥시] 시흥시 도서관(시 직영): 0건 (후보 1)\n  ✓ [경기/광명시] 광명시립도서관(시 직영): 3건\n  ✓ [경기/군포시] 군포시도서관(시 직영): 5건\n  ✓ [경기/이천시] 이천시립도서관(시 직영): 7건\n  · [경기/양주시] 양주시립도서관(시 직영): 0건 (후보 10)\n  ✓ [경기/오산시] 오산시중앙도서관(시 직영): 1건\n  · [경기/구리시] 구리시립도서관(시 직영): 0건 (후보 3)\n  · [경기/안성시] 안성시립도서관(안성맞춤도서관 등): 0건 (후보 3)\n  · [경기/포천시] 포천시립도서관(시 직영): 0건 (후보 20)\n  · [경기/의왕시] 의왕시 도서관(시 직영): 0건 (후보 3)\n  ✓ [경기/하남시] 하남시 도서관(하남문화재단 운영): 3건\n  · [경기/동두천시] 동두천시립도서관(시 직영): 0건 (후보 18)\n  · [경기/과천시] 과천시 정보과학도서관(시 직영): 0건 (후보 7)\n  ✓ [경기/파주시] 파주중앙도서관(시 직영): 3건\n  · [경기/양평군] 양평군립도서관(군 직영): 0건\n  ✓ [경기/가평군] 가평군립도서관(군 직영): 1건\n  · [경기/연천군] 연천군립도서관(군 직영): 0건 (후보 4)\n  · [경기/김포시] 김포시립도서관(장기도서관 등): 0건 (후보 2)\n  · [경기/김포시] 김포시청 채용공고: 0건 (후보 23)\n  · [경기/김포시] 김포문화재단 직원채용: 0건 (후보 14)\n  ✓ [경기/광주시] 광주시립도서관(중앙도서관 등): 2건\n  · [경기/광주시] 광주시청 채용시험정보: 0건 (후보 10)\n  ✓ [경기/광주시] 광주시문화재단(남한산성아트홀): 1건\n  ✓ [경기/여주시] 여주시립도서관(여주도서관 등): 1건\n  · [경기/여주시] 여주시청 시험정보: 0건 (후보 15)\n  · [사서교사/서울] 기간제 사서교사(서울교육일자리포털): 0건 (후보 2)\n  ✓ [사서교사/서울] 정교사 임용(서울시교육청): 1건\n  · [사서교사/경기] 기간제 사서교사(경기도교육청 구인구직): 0건 (후보 1)\n  · [사서교사/경기] 정교사 임용(경기도교육청): 0건 (후보 20)\n  · [사서교사/서울] 교육공무직 사서실무사(서울시교육청): 0건 (후보 1)\n\n=== 도서관 공유 통합 포털 수집 ===\n  ✓ [도서관·통합] 통합포털(클린아이 잡플러스): 3건\n  ✓ [도서관·통합] 통합포털(잡코리아): 12건\n  ✓ [도서관·통합] 통합포털(잡알리오): 1건\n  ✓ [도서관·통합] 통합포털(나라일터): 4건\n\n=== 기록관리 수집 ===\n  · [기록관리] 기록관리·한국기록전문가협회: 0건\n  · [기록관리] 기록관리·잡알리오: 0건\n  · [기록관리] 기록관리·나라일터: 0건\n  ✓ [기록관리] 기록관리·클린아이 잡플러스: 1건\n  ✓ [기록관리] 기록관리·사람인: 12건\n  ✓ [기록관리] 기록관리·잡코리아: 15건\n\n[마감일 미확인] 18건 / 전체 97건\n\n=== 건강검진 ===  소스 116 · 성공 38 · 0건 78 · fetch실패 0 · 결과공고제외 300\n  [ZERO] sel-gangnam-gfac — cands=19 kept=0 pages=2\n  [ZERO] sel-gangnam-gnlib-hub — cands=10 kept=0 pages=1\n  [ZERO] sel-gangdong-gdfac — cands=0 kept=0 pages=1\n  [ZERO] sel-gangbuk-gbcmc — cands=21 kept=0 pages=2\n  [ZERO] sel-gangseo-lib — cands=1 kept=0 pages=3\n  [ZERO] sel-gwanak-gfac — cands=20 kept=0 pages=2\n  [ZERO] sel-gwangjin-fmc — cands=0 kept=0 pages=1\n  [ZERO] sel-guro-cc — cands=6 kept=0 pages=1\n  [ZERO] sel-geumcheon-gcfac — cands=6 kept=0 pages=1\n  [ZERO] sel-nowon-arts — cands=0 kept=0 pages=1\n  [ZERO] sel-dobong-dbfac — cands=0 kept=0 pages=1\n  [ZERO] sel-ddm-dfmc — cands=0 kept=0 pages=2\n  [ZERO] sel-dongjak-idfac — cands=12 kept=0 pages=1\n  [ZERO] sel-mapo-lib — cands=0 kept=0 pages=1\n  [ZERO] sel-sdm-gu — cands=2 kept=0 pages=2\n  [ZERO] sel-seocho-cf — cands=10 kept=0 pages=1\n  [ZERO] sel-songpa-fac — cands=3 kept=0 pages=1\n  [ZERO] sel-yangcheon-yfac — cands=10 kept=0 pages=1\n  [ZERO] sel-ydp-ydpcf — cands=13 kept=0 pages=1\n  [ZERO] sel-yongsan-fmc — cands=15 kept=0 pages=2\n  [ZERO] sel-jongno-jfac — cands=11 kept=0 pages=1\n  [ZERO] sel-jongno-lib — cands=3 kept=0 pages=2\n  [ZERO] sel-junggu-caci — cands=10 kept=0 pages=1\n  [ZERO] sel-seoullib — cands=8 kept=0 pages=1\n  [ZERO] sel-nl — cands=18 kept=0 pages=2\n  [ZERO] sel-nlcy — cands=7 kept=0 pages=1\n  [ZERO] sel-nld — cands=7 kept=0 pages=1\n  [ZERO] sel-edu-gplib — cands=0 kept=0 pages=2\n  [ZERO] sel-edu-gslib — cands=8 kept=0 pages=1\n  [ZERO] sel-edu-grlib — cands=6 kept=0 pages=1\n  [ZERO] sel-edu-nslib — cands=9 kept=0 pages=1\n  [ZERO] sel-edu-nwllc — cands=10 kept=0 pages=1\n  [ZERO] sel-edu-ddmlib — cands=5 kept=0 pages=1\n  [ZERO] sel-edu-mpllc — cands=7 kept=0 pages=1\n  [ZERO] sel-edu-splib — cands=6 kept=0 pages=1\n  [ZERO] sel-edu-childlib — cands=3 kept=0 pages=1\n  [ZERO] sel-edu-jdlib — cands=8 kept=0 pages=1\n  [ZERO] sel-edu-jnlib — cands=7 kept=0 pages=1\n  [ZERO] ggi-ggl — cands=2 kept=0 pages=1\n  [ZERO] ggi-ggcf — cands=16 kept=0 pages=1\n  [ZERO] ggi-suwon-lib — cands=0 kept=0 pages=1\n  [ZERO] ggi-suwon-city — cands=21 kept=0 pages=2\n  [ZERO] ggi-seongnam-city — cands=1 kept=0 pages=2\n  [ZERO] ggi-goyang-lib — cands=0 kept=0 pages=1\n  [ZERO] ggi-goyang-city — cands=17 kept=0 pages=3\n  [ZERO] ggi-bucheon-lib — cands=1 kept=0 pages=3\n  [ZERO] ggi-bucheon-city — cands=30 kept=0 pages=3\n  [ZERO] ggi-bucheon-komacon — cands=13 kept=0 pages=1\n  [ZERO] ggi-bucheon-bcf — cands=0 kept=0 pages=1\n  [ZERO] ggi-ansan-lib — cands=0 kept=0 pages=2\n  [ZERO] ggi-ansan-city — cands=1 kept=0 pages=3\n  [ZERO] ggi-anyang-lib — cands=20 kept=0 pages=2\n  [ZERO] ggi-namyangju-lib — cands=9 kept=0 pages=1\n  [ZERO] ggi-hwaseong-hcf — cands=0 kept=0 pages=1\n  [ZERO] ggi-pyeongtaek-lib — cands=11 kept=0 pages=1\n  [ZERO] ggi-uijeongbu-lib — cands=1 kept=0 pages=1\n  [ZERO] ggi-siheung-lib — cands=1 kept=0 pages=2\n  [ZERO] ggi-yangju-lib — cands=10 kept=0 pages=1\n  [ZERO] ggi-guri-lib — cands=3 kept=0 pages=1\n  [ZERO] ggi-anseong-lib — cands=3 kept=0 pages=3\n  [ZERO] ggi-pocheon-lib — cands=20 kept=0 pages=3\n  [ZERO] ggi-uiwang-lib — cands=3 kept=0 pages=1\n  [ZERO] ggi-ddc-lib — cands=18 kept=0 pages=3\n  [ZERO] ggi-gcheon-lib — cands=7 kept=0 pages=1\n  [ZERO] ggi-yp-lib — cands=0 kept=0 pages=2\n  [ZERO] ggi-ycheon-lib — cands=4 kept=0 pages=1\n  [ZERO] ggi-gimpo-lib — cands=2 kept=0 pages=3\n  [ZERO] ggi-gimpo-city — cands=23 kept=0 pages=3\n  [ZERO] ggi-gimpo-gcf — cands=14 kept=0 pages=3\n  [ZERO] ggi-gjcity-city — cands=10 kept=0 pages=2\n  [ZERO] ggi-yeoju-city — cands=15 kept=0 pages=1\n  [ZERO] tea-seoul-gijegye — cands=2 kept=0 pages=2\n  [ZERO] tea-ggi-gijegye — cands=1 kept=0 pages=2\n  [ZERO] tea-ggi-imyong — cands=20 kept=0 pages=2\n  [ZERO] tea-seoul-gongmujik — cands=1 kept=0 pages=2\n  [ZERO] records-karma — kept=0\n  [ZERO] records-alio — kept=0\n  [ZERO] records-gojobs — kept=0\n"
   },
   "jobs": [
+    {
+      "id": "portal-alio::e631ddbfc3",
+      "sid": "portal-alio",
+      "region": "경기",
+      "district": "전역·통합",
+      "source": "통합포털(잡알리오)",
+      "title": "2027년도 한국학중앙연구원 한국학도서관 문헌정보팀 청년인턴 채용 공고",
+      "jobType": "계약",
+      "posted": null,
+      "deadline": "2026-12-11",
+      "url": "https://job.alio.go.kr/recruitview.do?idx=307538",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "isNew": true
+    },
     {
       "id": "sel-portal-saramin::b5750c8880",
       "sid": "sel-portal-saramin",
@@ -21,13 +35,19 @@
       "source": "통합포털 도서관/사서(사람인)",
       "title": "2027년도 노원구립 화랑도서관 기간제 사서 채용 공고",
       "jobType": "계약",
-      "posted": null,
+      "posted": "2026-11-26",
       "deadline": "2026-12-10",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55679137",
       "firstSeen": "2026-11-27",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:05:00+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:05:10+09:00",
+      "aliases": [
+        {
+          "source": "통합포털(잡코리아)",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50437477"
+        }
+      ],
+      "isNew": false
     },
     {
       "id": "sel-portal-saramin::86ff7c2459",
@@ -37,13 +57,19 @@
       "source": "통합포털 도서관/사서(사람인)",
       "title": "2027년도 노원구립 화랑도서관 정규직 사서 채용",
       "jobType": "정규",
-      "posted": null,
+      "posted": "2026-11-26",
       "deadline": "2026-12-10",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55678345",
       "firstSeen": "2026-11-27",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:05:00+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:05:10+09:00",
+      "aliases": [
+        {
+          "source": "통합포털(잡코리아)",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50435932"
+        }
+      ],
+      "isNew": false
     },
     {
       "id": "sel-portal-saramin::204ec39211",
@@ -53,12 +79,34 @@
       "source": "통합포털 도서관/사서(사람인)",
       "title": "영등포문화재단 신규직원 채용(27.01.01.임용)-22명",
       "jobType": "계약",
-      "posted": null,
+      "posted": "2026-12-04",
       "deadline": "2026-12-10",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55616546",
       "firstSeen": "2026-11-27",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:05:04+09:00",
+      "scrapedAt": "2026-11-28T05:05:12+09:00",
+      "aliases": [
+        {
+          "source": "통합포털(잡코리아)",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50395849"
+        }
+      ],
+      "isNew": false
+    },
+    {
+      "id": "portal-gojobs::ea67a9cdbd",
+      "sid": "portal-gojobs",
+      "region": "서울",
+      "district": "송파구",
+      "source": "통합포털(나라일터)",
+      "title": "한국체육대학교 국가공무원(사서8급) 전입(지방공무원 경력경쟁채용) 희망자 모집 공고",
+      "jobType": "정규",
+      "posted": "2026-12-10",
+      "deadline": "2026-12-10",
+      "url": "https://www.gojobs.go.kr/apmView.do?menuNo=401&empmnsn=400658&searchJobsecode=020&selMenuNo=400",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
       "isNew": true
     },
     {
@@ -74,7 +122,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55520440",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:05:04+09:00",
+      "scrapedAt": "2026-11-28T05:05:12+09:00",
       "isNew": false
     },
     {
@@ -90,7 +138,53 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55661665",
       "firstSeen": "2026-11-25",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:05:09+09:00",
+      "scrapedAt": "2026-11-28T05:05:19+09:00",
+      "isNew": false
+    },
+    {
+      "id": "sel-portal-saramin::e8a1c22a02",
+      "sid": "sel-portal-saramin",
+      "region": "서울",
+      "district": "마포구",
+      "source": "통합포털 도서관/사서(사람인)",
+      "title": "서울캠퍼스/세종캠퍼스 교직원 모집",
+      "jobType": "계약",
+      "posted": null,
+      "deadline": "2026-12-07",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55582746",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:05:06+09:00",
+      "isNew": true
+    },
+    {
+      "id": "sel-seongdong-sdfac::d991e210aa",
+      "sid": "sel-seongdong-sdfac",
+      "region": "서울",
+      "district": "성동구",
+      "source": "성동문화재단",
+      "title": "2026-54-1 경력 (재)성동문화재단 직원 채용 공고(기간제계약직/육아대체/사서) (기간제계약직/육아대체/사서)",
+      "jobType": "계약",
+      "posted": "2026-11-25",
+      "deadline": "2026-12-04",
+      "url": "https://www.sdfac.or.kr/kor/recruit/app/empmn_view.do?pblanc_no=2026-54&realm_no=1",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:05:08+09:00",
+      "aliases": [
+        {
+          "source": "통합포털(클린아이 잡플러스)",
+          "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000647&entSeq=000044"
+        },
+        {
+          "source": "통합포털(잡코리아)",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50444998"
+        },
+        {
+          "source": "통합포털 도서관/사서(사람인)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55691169"
+        }
+      ],
       "isNew": false
     },
     {
@@ -106,8 +200,24 @@
       "url": "https://www.paju.go.kr/user/board/BD_board.view.do?bbsCd=1022&q_ctgCd=4064&q_currPage=2&seq=20261125092958965",
       "firstSeen": "2026-11-26",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:20:15+09:00",
+      "scrapedAt": "2026-11-28T05:21:13+09:00",
       "isNew": false
+    },
+    {
+      "id": "portal-gojobs::89d067697e",
+      "sid": "portal-gojobs",
+      "region": "경기",
+      "district": "화성시",
+      "source": "통합포털(나라일터)",
+      "title": "[화성시인재육성재단] 2026년 제12차 기간제 직원 공개채용(도서관/행정/목공/도예/영상/시설/장애인)",
+      "jobType": "계약",
+      "posted": "2026-12-02",
+      "deadline": "2026-12-08",
+      "url": "https://www.gojobs.go.kr/apmView.do?menuNo=401&empmnsn=400741&searchJobsecode=020&selMenuNo=400",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "isNew": true
     },
     {
       "id": "sel-portal-saramin::521664e6e4",
@@ -122,7 +232,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55654578",
       "firstSeen": "2026-11-25",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:05:02+09:00",
+      "scrapedAt": "2026-11-28T05:05:10+09:00",
       "isNew": false
     },
     {
@@ -138,7 +248,7 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55661760",
       "firstSeen": "2026-11-25",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:05:09+09:00",
+      "scrapedAt": "2026-11-28T05:05:19+09:00",
       "isNew": false
     },
     {
@@ -154,8 +264,120 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55597553",
       "firstSeen": "2026-11-18",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:05:04+09:00",
+      "scrapedAt": "2026-11-28T05:05:12+09:00",
       "isNew": false
+    },
+    {
+      "id": "sel-edu-gdlib::1e5ee2a192",
+      "sid": "sel-edu-gdlib",
+      "region": "서울",
+      "district": "강동구",
+      "source": "강동도서관(교육청)",
+      "title": "2027년도 서울특별시교육청강동도서관 열람실 운영지원 인력 채용 공고 새글",
+      "jobType": "계약",
+      "posted": "2026-11-27",
+      "deadline": "2026-12-04",
+      "url": "https://gdlib.sen.go.kr/gdlib/board/view.do?menu_idx=25&board_idx=1761366&manage_idx=52",
+      "firstSeen": "2026-11-28",
+      "status": "upcoming",
+      "scrapedAt": "2026-11-28T05:07:00+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-yongin-lib::5d64a0ed32",
+      "sid": "ggi-yongin-lib",
+      "region": "경기",
+      "district": "용인시",
+      "source": "용인시도서관사업소",
+      "title": "2027년 중부도서관 기간제근로자(주말자료실) 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-27",
+      "deadline": "2026-12-04",
+      "url": "https://lib.yongin.go.kr/intro/menu/10095/bbs/21108/bbsPostDetail.do?postIdx=401480&manageCd=ALL",
+      "firstSeen": "2026-11-28",
+      "status": "upcoming",
+      "scrapedAt": "2026-11-28T05:13:42+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-yongin-lib::6b77ea63f1",
+      "sid": "ggi-yongin-lib",
+      "region": "경기",
+      "district": "용인시",
+      "source": "용인시도서관사업소",
+      "title": "2027년 중부도서관 기간제근로자(개관연장) 채용 공고",
+      "jobType": "계약",
+      "posted": "2026-11-27",
+      "deadline": "2026-12-04",
+      "url": "https://lib.yongin.go.kr/intro/menu/10095/bbs/21108/bbsPostDetail.do?postIdx=401460&manageCd=ALL",
+      "firstSeen": "2026-11-28",
+      "status": "upcoming",
+      "scrapedAt": "2026-11-28T05:13:45+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-gwangmyeong-lib::b9e88fa16c",
+      "sid": "ggi-gwangmyeong-lib",
+      "region": "경기",
+      "district": "광명시",
+      "source": "광명시립도서관(시 직영)",
+      "title": "소하도서관 자료실 기간제근로자 공개 채용 공고",
+      "jobType": "계약",
+      "posted": "2026-11-27",
+      "deadline": "2026-12-07",
+      "url": "https://gmlib.gm.go.kr/front/index.php?g_page=open&m_page=open01&page=1&bb_code=10g702c04q06928&view=read&field=sub|con&wd=85&bvLib=85",
+      "firstSeen": "2026-11-28",
+      "status": "upcoming",
+      "scrapedAt": "2026-11-28T05:16:36+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-gwangmyeong-lib::323dd97d36",
+      "sid": "ggi-gwangmyeong-lib",
+      "region": "경기",
+      "district": "광명시",
+      "source": "광명시립도서관(시 직영)",
+      "title": "광명시 하안도서관 자료실 기간제 근로자(평일주간) 공개 채용 공고",
+      "jobType": "계약",
+      "posted": "2026-11-27",
+      "deadline": "2026-12-06",
+      "url": "https://gmlib.gm.go.kr/front/index.php?g_page=open&m_page=open01&page=1&bb_code=10g60rc04r91d8c&view=read&field=sub|con&wd=85&bvLib=85",
+      "firstSeen": "2026-11-28",
+      "status": "upcoming",
+      "scrapedAt": "2026-11-28T05:16:41+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-hanam-lib::1ec9b349bd",
+      "sid": "ggi-hanam-lib",
+      "region": "경기",
+      "district": "하남시",
+      "source": "하남시 도서관(하남문화재단 운영)",
+      "title": "2027년 하남시위례숲속도서관 기간제근로자(초단시간근로자) 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-27",
+      "deadline": "2026-12-06",
+      "url": "https://www.hanam.go.kr/www/selectGosiData.do?key=172&not_ancmt_mgt_no=53425&not_ancmt_se_code=05",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:20:17+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-yeoju-lib::a32933a181",
+      "sid": "ggi-yeoju-lib",
+      "region": "경기",
+      "district": "여주시",
+      "source": "여주시립도서관(여주도서관 등)",
+      "title": "여주시 평생교육과 주말 자료실 운영 보조 (여주·흥천·대신·북내·점동·기적·산북도서관), 사서(여주도서관) 기간제근로자 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-27",
+      "deadline": "2026-12-08",
+      "url": "https://www.yjlib.go.kr/web/menu/10085/bbs/20001/bbsPostDetail.do?postIdx=77125&manageCd=ALL",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:22:41+09:00",
+      "isNew": true
     },
     {
       "id": "ggi-paju-lib::a3a57703cc",
@@ -167,11 +389,11 @@
       "jobType": "계약",
       "posted": "2026-11-26",
       "deadline": "2026-12-03",
-      "url": "https://www.paju.go.kr/user/board/BD_board.view.do?bbsCd=1022&q_ctgCd=4064&seq=20261126091706340",
+      "url": "https://www.paju.go.kr/user/board/BD_board.view.do?bbsCd=1022&q_ctgCd=4064&q_currPage=2&seq=20261126091706340",
       "firstSeen": "2026-11-27",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:20:09+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:21:08+09:00",
+      "isNew": false
     },
     {
       "id": "ggi-gp-lib::46de8d6bb4",
@@ -186,8 +408,8 @@
       "url": "https://www.gp.go.kr/portal/selectGosiData.do?key=2392&not_ancmt_mgt_no=57579&not_ancmt_se_code=05",
       "firstSeen": "2026-11-27",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:20:33+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:21:30+09:00",
+      "isNew": false
     },
     {
       "id": "ggi-gjcity-lib::7025f41388",
@@ -202,14 +424,14 @@
       "url": "https://lib.gjcity.go.kr/lay1/bbs/S1T82C3521/H/1/view.do?article_seq=66141&child=&cpage=&rows=&condition=&keyword=",
       "firstSeen": "2026-11-27",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:21:16+09:00",
+      "scrapedAt": "2026-11-28T05:22:10+09:00",
       "aliases": [
         {
           "source": "광주시문화재단(남한산성아트홀)",
           "url": "https://www.nsart.or.kr/board/recruit.do?act=read&bpoId=1808&bcaId=0&pageIndex=1"
         }
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "sel-yongsan-gu::f46459505e",
@@ -224,7 +446,13 @@
       "url": "https://www.yongsan.go.kr/portal/bbs/B0000095/view.do?nttId=772457&menuNo=200233&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9&pageUnit=10&pageIndex=1",
       "firstSeen": "2026-11-26",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:03:41+09:00",
+      "scrapedAt": "2026-11-28T05:03:46+09:00",
+      "aliases": [
+        {
+          "source": "통합포털(나라일터)",
+          "url": "https://www.gojobs.go.kr/apmView.do?menuNo=401&empmnsn=400548&searchJobsecode=020&selMenuNo=400"
+        }
+      ],
       "isNew": false
     },
     {
@@ -240,7 +468,13 @@
       "url": "https://www.eplib.or.kr/intro/menu/10041/bbs/20002/bbsPostDetail.do?bbsPostIdx=238150&manageCd=ALL",
       "firstSeen": "2026-11-26",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:04:00+09:00",
+      "scrapedAt": "2026-11-28T05:04:04+09:00",
+      "aliases": [
+        {
+          "source": "통합포털(잡코리아)",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50433360"
+        }
+      ],
       "isNew": false
     },
     {
@@ -256,7 +490,7 @@
       "url": "https://www.jnfac.or.kr/board/7/17766",
       "firstSeen": "2026-11-26",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:04:52+09:00",
+      "scrapedAt": "2026-11-28T05:04:58+09:00",
       "isNew": false
     },
     {
@@ -272,7 +506,7 @@
       "url": "https://lib.yongin.go.kr/intro/menu/10095/bbs/21108/bbsPostDetail.do?postIdx=401120&manageCd=ALL",
       "firstSeen": "2026-11-26",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:13:25+09:00",
+      "scrapedAt": "2026-11-28T05:13:48+09:00",
       "isNew": false
     },
     {
@@ -288,8 +522,72 @@
       "url": "https://lib.yongin.go.kr/intro/menu/10095/bbs/21108/bbsPostDetail.do?postIdx=401080&manageCd=ALL",
       "firstSeen": "2026-11-26",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:13:28+09:00",
+      "scrapedAt": "2026-11-28T05:13:51+09:00",
       "isNew": false
+    },
+    {
+      "id": "ggi-icheon-lib::3661e812af",
+      "sid": "ggi-icheon-lib",
+      "region": "경기",
+      "district": "이천시",
+      "source": "이천시립도서관(시 직영)",
+      "title": "2027년 이천시립서희도서관 기간제 및 초단시간근로자 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-25",
+      "deadline": null,
+      "url": "https://www.icheon.go.kr/portal/saeol/gosi/view.do?notAncmtMgtNo=72057&mid=0403010000",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:18:35+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-icheon-lib::68360b707a",
+      "sid": "ggi-icheon-lib",
+      "region": "경기",
+      "district": "이천시",
+      "source": "이천시립도서관(시 직영)",
+      "title": "2027년 마장도서관 초단시간 근로자 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-25",
+      "deadline": "2026-12-03",
+      "url": "https://www.icheon.go.kr/portal/saeol/gosi/view.do?notAncmtMgtNo=72055&mid=0403010000",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:18:38+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-icheon-lib::da6270deff",
+      "sid": "ggi-icheon-lib",
+      "region": "경기",
+      "district": "이천시",
+      "source": "이천시립도서관(시 직영)",
+      "title": "2027년 이천시립청미도서관 초단시간 근로자 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-25",
+      "deadline": "2026-12-07",
+      "url": "https://www.icheon.go.kr/portal/saeol/gosi/view.do?notAncmtMgtNo=72029&mid=0403010000",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:18:41+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-icheon-lib::d91350b79d",
+      "sid": "ggi-icheon-lib",
+      "region": "경기",
+      "district": "이천시",
+      "source": "이천시립도서관(시 직영)",
+      "title": "2027년 효양도서관 기간제 및 초단시간 근로자 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-25",
+      "deadline": "2026-12-10",
+      "url": "https://www.icheon.go.kr/portal/saeol/gosi/view.do?notAncmtMgtNo=72026&mid=0403010000",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:18:44+09:00",
+      "isNew": true
     },
     {
       "id": "ggi-paju-lib::244b9447f5",
@@ -304,24 +602,8 @@
       "url": "https://www.paju.go.kr/user/board/BD_board.view.do?bbsCd=1022&q_ctgCd=4064&q_currPage=2&seq=20261125131603651",
       "firstSeen": "2026-11-26",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:20:11+09:00",
+      "scrapedAt": "2026-11-28T05:21:10+09:00",
       "isNew": false
-    },
-    {
-      "id": "ggi-gp-lib::d35fcaabf1",
-      "sid": "ggi-gp-lib",
-      "region": "경기",
-      "district": "가평군",
-      "source": "가평군립도서관(군 직영)",
-      "title": "2027년 상반기 가평군 도서관 기간제 채용공고",
-      "jobType": "계약",
-      "posted": "2026-11-25",
-      "deadline": "2026-12-07",
-      "url": "https://www.gp.go.kr/portal/selectGosiData.do?key=2392&not_ancmt_mgt_no=57561&not_ancmt_se_code=05",
-      "firstSeen": "2026-11-27",
-      "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:20:36+09:00",
-      "isNew": true
     },
     {
       "id": "sel-edu-yslib::f0a4db012c",
@@ -336,7 +618,7 @@
       "url": "https://yslib.sen.go.kr/yslib/board/view.do?menu_idx=25&board_idx=1761095&manage_idx=997",
       "firstSeen": "2026-11-25",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:08:26+09:00",
+      "scrapedAt": "2026-11-28T05:08:37+09:00",
       "isNew": false
     },
     {
@@ -352,8 +634,116 @@
       "url": "https://sdmlib.sen.go.kr/sdmlib/board/view.do?menu_idx=25&board_idx=1761141&manage_idx=749",
       "firstSeen": "2026-11-25",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:09:58+09:00",
+      "scrapedAt": "2026-11-28T05:09:59+09:00",
       "isNew": false
+    },
+    {
+      "id": "ggi-icheon-lib::5a656ebe00",
+      "sid": "ggi-icheon-lib",
+      "region": "경기",
+      "district": "이천시",
+      "source": "이천시립도서관(시 직영)",
+      "title": "2027년 이천시립어린이도서관 기간제 및 초단시간 근로자 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-24",
+      "deadline": null,
+      "url": "https://www.icheon.go.kr/portal/saeol/gosi/view.do?notAncmtMgtNo=72042&mid=0403010000",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:18:47+09:00",
+      "isNew": true
+    },
+    {
+      "id": "ggi-icheon-lib::029d36b3a8",
+      "sid": "ggi-icheon-lib",
+      "region": "경기",
+      "district": "이천시",
+      "source": "이천시립도서관(시 직영)",
+      "title": "2027년 시립도서관 기간제 및 초단시간 근로자 채용 공고",
+      "jobType": "알바",
+      "posted": "2026-11-24",
+      "deadline": "2026-12-10",
+      "url": "https://www.icheon.go.kr/portal/saeol/gosi/view.do?notAncmtMgtNo=72018&mid=0403010000",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:18:51+09:00",
+      "isNew": true
+    },
+    {
+      "id": "sel-seongbuk-sbc::cb7a9e975b",
+      "sid": "sel-seongbuk-sbc",
+      "region": "서울",
+      "district": "성북구",
+      "source": "성북문화재단",
+      "title": "성북문화재단 기간직 채용 공고(기간직(보조금_개관시간연장), 다급상당, 사서)",
+      "jobType": "계약",
+      "posted": "2026-11-18",
+      "deadline": "2026-12-03",
+      "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35776&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "aliases": [
+        {
+          "source": "통합포털(클린아이 잡플러스)",
+          "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000276&entSeq=000033"
+        }
+      ],
+      "isNew": false
+    },
+    {
+      "id": "sel-seongbuk-sbc::7ba00035ba",
+      "sid": "sel-seongbuk-sbc",
+      "region": "서울",
+      "district": "성북구",
+      "source": "성북문화재단",
+      "title": "성북문화재단 기간직 채용 공고(기간직, 나급, 사서)",
+      "jobType": "계약",
+      "posted": "2026-11-18",
+      "deadline": "2026-12-03",
+      "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35775&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "aliases": [
+        {
+          "source": "통합포털(클린아이 잡플러스)",
+          "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000276&entSeq=000034"
+        }
+      ],
+      "isNew": false
+    },
+    {
+      "id": "portal-jobkorea::284b771a9d",
+      "sid": "portal-jobkorea",
+      "region": "서울",
+      "district": "중구",
+      "source": "통합포털(잡코리아)",
+      "title": "우전미디어 사서 채용 (비도서)",
+      "jobType": "계약",
+      "posted": "2026-11-24",
+      "deadline": "2026-12-24",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50425473",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "isNew": true
+    },
+    {
+      "id": "portal-gojobs::d77d1b7918",
+      "sid": "portal-gojobs",
+      "region": "경기",
+      "district": "의왕시",
+      "source": "통합포털(나라일터)",
+      "title": "[경기도 의왕시] 2027년 의왕시 중앙도서관 자료실 기간제 근로자 채용 공고(사서)",
+      "jobType": "계약",
+      "posted": "2026-11-24",
+      "deadline": "2026-12-02",
+      "url": "https://www.gojobs.go.kr/apmView.do?menuNo=401&empmnsn=400519&searchJobsecode=020&selMenuNo=400",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "isNew": true
     },
     {
       "id": "sel-edu-gnlib::02f1c2549a",
@@ -368,7 +758,7 @@
       "url": "https://gnlib.sen.go.kr/gnlib/board/view.do?menu_idx=25&board_idx=1761023&manage_idx=27",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:06:21+09:00",
+      "scrapedAt": "2026-11-28T05:06:28+09:00",
       "isNew": false
     },
     {
@@ -377,36 +767,14 @@
       "region": "서울",
       "district": "강동구",
       "source": "고덕평생학습관(교육청)",
-      "title": "2027년 고덕평생학습관 평일·주말 자료실 단시간 근로자 모집 안내",
+      "title": "[채용(기간연장)] 2027년 고덕평생학습관 평일·주말 자료실 단시간 근로자 모집 안내",
       "jobType": "알바",
       "posted": "2026-11-23",
-      "deadline": "2026-11-27",
+      "deadline": "2026-11-30",
       "url": "https://gdllc.sen.go.kr/gdllc/board/view.do?menu_idx=25&board_idx=1761021&manage_idx=191",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:07:04+09:00",
-      "aliases": [
-        {
-          "source": "강동도서관(교육청)",
-          "url": "https://gdlib.sen.go.kr/gdlib/board/view.do?menu_idx=25&board_idx=1760952&manage_idx=52"
-        }
-      ],
-      "isNew": false
-    },
-    {
-      "id": "sel-edu-gslib::4d0f799c83",
-      "sid": "sel-edu-gslib",
-      "region": "서울",
-      "district": "강서구",
-      "source": "강서도서관(교육청)",
-      "title": "2027년 강서도서관 주중·주말 단시간 근로자 채용 공고",
-      "jobType": "알바",
-      "posted": "2026-11-23",
-      "deadline": "2026-11-27",
-      "url": "https://gslib.sen.go.kr/gslib/board/view.do?menu_idx=25&board_idx=1761088&manage_idx=96",
-      "firstSeen": "2026-11-24",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:07:16+09:00",
+      "scrapedAt": "2026-11-28T05:07:15+09:00",
       "isNew": false
     },
     {
@@ -422,71 +790,7 @@
       "url": "https://gclib.sen.go.kr/gclib/board/view.do?menu_idx=25&board_idx=1761047&manage_idx=312",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:07:37+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-edu-grlib::a19243560f",
-      "sid": "sel-edu-grlib",
-      "region": "서울",
-      "district": "구로구",
-      "source": "구로도서관(교육청)",
-      "title": "2027년 주중·주말 단시간근로자 채용 공고",
-      "jobType": "알바",
-      "posted": "2026-11-23",
-      "deadline": "2026-11-27",
-      "url": "https://grlib.sen.go.kr/grlib/board/view.do?menu_idx=25&board_idx=1761054&manage_idx=388",
-      "firstSeen": "2026-11-24",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:08:05+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-edu-nslib::f5e459c9eb",
-      "sid": "sel-edu-nslib",
-      "region": "서울",
-      "district": "용산구",
-      "source": "남산도서관(교육청)",
-      "title": "2027년도 서울특별시교육청남산도서관 자료실 단시간 근로자(주중, 주말) 지원인력 채용공고",
-      "jobType": "알바",
-      "posted": "2026-11-23",
-      "deadline": "2026-11-27",
-      "url": "https://nslib.sen.go.kr/nslib/board/view.do?menu_idx=25&board_idx=1761025&manage_idx=428",
-      "firstSeen": "2026-11-24",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:08:11+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-edu-nwllc::20faefac59",
-      "sid": "sel-edu-nwllc",
-      "region": "서울",
-      "district": "노원구",
-      "source": "노원평생학습관(교육청)",
-      "title": "2027년 노원평생학습관 기간제 근로자 채용 안내(지원기간: 11.23.~11.27.)",
-      "jobType": "계약",
-      "posted": "2026-11-23",
-      "deadline": "2026-11-27",
-      "url": "https://nwllc.sen.go.kr/nwllc/board/view.do?menu_idx=25&board_idx=1761049&manage_idx=471",
-      "firstSeen": "2026-11-24",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:08:34+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-edu-dblib::136b21f8fe",
-      "sid": "sel-edu-dblib",
-      "region": "서울",
-      "district": "도봉구",
-      "source": "도봉도서관(교육청)",
-      "title": "2027년 도봉도서관 주중/주말 단시간 근로자(사서보조)채용 공고",
-      "jobType": "알바",
-      "posted": "2026-11-23",
-      "deadline": "2026-11-27",
-      "url": "https://dblib.sen.go.kr/dblib/board/view.do?menu_idx=25&board_idx=1761019&manage_idx=530",
-      "firstSeen": "2026-11-24",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:09:01+09:00",
+      "scrapedAt": "2026-11-28T05:07:50+09:00",
       "isNew": false
     },
     {
@@ -502,23 +806,7 @@
       "url": "https://dblib.sen.go.kr/dblib/board/view.do?menu_idx=25&board_idx=1761015&manage_idx=530",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:09:05+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-edu-mpllc::68843f55e0",
-      "sid": "sel-edu-mpllc",
-      "region": "서울",
-      "district": "마포구",
-      "source": "마포평생학습관(교육청)",
-      "title": "2027년 마포평생학습관 기간제근로자 채용 공고 (~11. 27. 금)",
-      "jobType": "계약",
-      "posted": "2026-11-23",
-      "deadline": "2026-11-27",
-      "url": "https://mpllc.sen.go.kr/mpllc/board/view.do?menu_idx=25&board_idx=1761046&manage_idx=699",
-      "firstSeen": "2026-11-24",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:09:34+09:00",
+      "scrapedAt": "2026-11-28T05:09:11+09:00",
       "isNew": false
     },
     {
@@ -534,7 +822,7 @@
       "url": "https://ahyon.sen.go.kr/ahyon/board/view.do?menu_idx=25&board_idx=1761031&manage_idx=656",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:09:44+09:00",
+      "scrapedAt": "2026-11-28T05:09:44+09:00",
       "isNew": false
     },
     {
@@ -543,62 +831,14 @@
       "region": "서울",
       "district": "양천구",
       "source": "양천도서관(교육청)",
-      "title": "2027년 양천도서관 자료실 단시간 근로자 채용 공고",
+      "title": "[접수기한 연장][채용] 2027년 양천도서관 자료실 단시간 근로자 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
-      "deadline": "2026-11-27",
+      "deadline": "2026-11-29",
       "url": "https://yclib.sen.go.kr/yclib/board/view.do?menu_idx=25&board_idx=1761028&manage_idx=843",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:10:24+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-edu-childlib::deda081fbb",
-      "sid": "sel-edu-childlib",
-      "region": "서울",
-      "district": "종로구",
-      "source": "어린이도서관(교육청)",
-      "title": "2027년 정보자료과 자료실 주말 단시간 근로자 채용 공고",
-      "jobType": "알바",
-      "posted": "2026-11-23",
-      "deadline": "2026-11-27",
-      "url": "https://childlib.sen.go.kr/childlib/board/view.do?menu_idx=25&board_idx=1761020&manage_idx=893",
-      "firstSeen": "2026-11-24",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:10:41+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-edu-jdlib::ac92e1b1d8",
-      "sid": "sel-edu-jdlib",
-      "region": "서울",
-      "district": "종로구",
-      "source": "정독도서관(교육청)",
-      "title": "2027년 정독도서관 주말단시간 근로자 채용 공고",
-      "jobType": "알바",
-      "posted": "2026-11-23",
-      "deadline": "2026-11-27",
-      "url": "https://jdlib.sen.go.kr/jdlib/board/view.do?menu_idx=25&board_idx=1761068&manage_idx=1039",
-      "firstSeen": "2026-11-24",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:10:52+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-edu-jnlib::e8ded7fb76",
-      "sid": "sel-edu-jnlib",
-      "region": "서울",
-      "district": "종로구",
-      "source": "종로도서관(교육청)",
-      "title": "2027년 종로도서관 주말단시간 근로자 채용 공고",
-      "jobType": "알바",
-      "posted": "2026-11-23",
-      "deadline": "2026-11-27",
-      "url": "https://jnlib.sen.go.kr/jnlib/board/view.do?menu_idx=25&board_idx=1761076&manage_idx=1092",
-      "firstSeen": "2026-11-25",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:11:17+09:00",
+      "scrapedAt": "2026-11-28T05:10:29+09:00",
       "isNew": false
     },
     {
@@ -607,14 +847,14 @@
       "region": "서울",
       "district": "영등포구",
       "source": "영등포평생학습관(교육청)",
-      "title": "2027년 정보자료과 단시간근로자(사서보조) 채용 공고 작성자 정보자료과 주무관 작성일 2026.11.23 11:09 조회수 267",
+      "title": "2027년 정보자료과 단시간근로자(사서보조) 채용 공고",
       "jobType": "알바",
       "posted": "2026-11-23",
       "deadline": "2026-11-28",
       "url": "https://ydpllc.sen.go.kr/ydpllc/board/view.do?menu_idx=25&board_idx=1761044&manage_idx=951",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:11:38+09:00",
+      "scrapedAt": "2026-11-28T05:11:48+09:00",
       "isNew": false
     },
     {
@@ -630,7 +870,7 @@
       "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211353&manageCd=ALL",
       "firstSeen": "2026-11-24",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:12:39+09:00",
+      "scrapedAt": "2026-11-28T05:12:52+09:00",
       "isNew": false
     },
     {
@@ -646,7 +886,7 @@
       "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211360&manageCd=ALL",
       "firstSeen": "2026-11-24",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:12:44+09:00",
+      "scrapedAt": "2026-11-28T05:12:57+09:00",
       "isNew": false
     },
     {
@@ -662,7 +902,7 @@
       "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211352&manageCd=ALL",
       "firstSeen": "2026-11-24",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:12:47+09:00",
+      "scrapedAt": "2026-11-28T05:12:59+09:00",
       "isNew": false
     },
     {
@@ -678,7 +918,7 @@
       "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211351&manageCd=ALL",
       "firstSeen": "2026-11-25",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:12:49+09:00",
+      "scrapedAt": "2026-11-28T05:13:01+09:00",
       "isNew": false
     },
     {
@@ -694,8 +934,24 @@
       "url": "https://www.snlib.go.kr/intro/menu/10048/bbs/20001/bbsPostDetail.do?postIdx=211343&manageCd=ALL",
       "firstSeen": "2026-11-24",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:12:51+09:00",
+      "scrapedAt": "2026-11-28T05:13:04+09:00",
       "isNew": false
+    },
+    {
+      "id": "ggi-icheon-lib::ad3da825bb",
+      "sid": "ggi-icheon-lib",
+      "region": "경기",
+      "district": "이천시",
+      "source": "이천시립도서관(시 직영)",
+      "title": "2027년 공립작은도서관 기간제 근로자 채용 공고",
+      "jobType": "계약",
+      "posted": "2026-11-23",
+      "deadline": "2026-12-03",
+      "url": "https://www.icheon.go.kr/portal/saeol/gosi/view.do?notAncmtMgtNo=72012&mid=0403010000",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:18:53+09:00",
+      "isNew": true
     },
     {
       "id": "ggi-hanam-lib::f7efc06e31",
@@ -710,7 +966,7 @@
       "url": "https://www.hanam.go.kr/www/selectGosiData.do?key=172&not_ancmt_mgt_no=53297&not_ancmt_se_code=05",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:19:23+09:00",
+      "scrapedAt": "2026-11-28T05:20:20+09:00",
       "isNew": false
     },
     {
@@ -726,7 +982,7 @@
       "url": "https://www.hanam.go.kr/www/selectGosiData.do?key=172&not_ancmt_mgt_no=53252&not_ancmt_se_code=05",
       "firstSeen": "2026-11-24",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:19:27+09:00",
+      "scrapedAt": "2026-11-28T05:20:24+09:00",
       "isNew": false
     },
     {
@@ -735,36 +991,14 @@
       "region": "서울",
       "district": "동작구",
       "source": "동작도서관(교육청)",
-      "title": "[변경][채용안내] 2027년 동작도서관 자료실 단시간 근로자 채용 안내: 11. 25(수)~11. 30.(월) 작성자 주무관(서무행정) 작성일 2026.11.20 08:39 조회수 1,423",
+      "title": "[변경][채용안내] 2027년 동작도서관 자료실 단시간 근로자 채용 안내: 11. 25(수)",
       "jobType": "알바",
       "posted": "2026-11-20",
       "deadline": "2026-11-30",
       "url": "https://djlib.sen.go.kr/djlib/board/view.do?menu_idx=25&board_idx=1760916&manage_idx=619",
       "firstSeen": "2026-11-21",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:09:25+09:00",
-      "isNew": false
-    },
-    {
-      "id": "ggi-bucheon-city::813da88148",
-      "sid": "ggi-bucheon-city",
-      "region": "경기",
-      "district": "부천시",
-      "source": "부천시청 채용공고",
-      "title": "2027년도 부천시립도서관 상호대차서비스 책 배달원 기간제근로자 채용 공고",
-      "jobType": "계약",
-      "posted": "2026-11-20",
-      "deadline": "2026-11-27",
-      "url": "https://www.bucheon.go.kr/site/program/board/basicboard/view?currentpage=2&menuid=148002004001&pagesize=10&boardtypeid=26756&encid=upgs6+qtVq2+xqVXI6tFDg==",
-      "firstSeen": "2026-11-21",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:13:59+09:00",
-      "aliases": [
-        {
-          "source": "부천시립도서관(시 직영)",
-          "url": "https://www.bcl.go.kr/site/program/board/basicboard/view?currentpage=2&menuid=019005001&pagesize=15&boardtypeid=26&boardid=96783"
-        }
-      ],
+      "scrapedAt": "2026-11-28T05:09:29+09:00",
       "isNew": false
     },
     {
@@ -780,7 +1014,7 @@
       "url": "https://gmlib.gm.go.kr/front/index.php?g_page=open&m_page=open01&page=1&bb_code=10g90ls03za91ad&view=read&field=sub|con&wd=85&bvLib=85",
       "firstSeen": "2026-11-21",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:16:16+09:00",
+      "scrapedAt": "2026-11-28T05:16:38+09:00",
       "isNew": false
     },
     {
@@ -796,56 +1030,24 @@
       "url": "https://www.sen.go.kr/user/bbs/BD_selectBbs.do?q_bbsSn=1094&q_bbsDocNo=20261120095913591",
       "firstSeen": "2026-11-21",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:22:25+09:00",
+      "scrapedAt": "2026-11-28T05:23:23+09:00",
       "isNew": false
     },
     {
-      "id": "ggi-yongin-lib::38c8393bdc",
-      "sid": "ggi-yongin-lib",
+      "id": "portal-jobkorea::8497def491",
+      "sid": "portal-jobkorea",
       "region": "경기",
-      "district": "용인시",
-      "source": "용인시도서관사업소",
-      "title": "2027년 동부도서관 기간제근로자(주말자료실) 채용 공고",
-      "jobType": "알바",
-      "posted": "2026-11-19",
-      "deadline": "2026-11-27",
-      "url": "https://lib.yongin.go.kr/intro/menu/10095/bbs/21108/bbsPostDetail.do?postIdx=400400&manageCd=ALL",
-      "firstSeen": "2026-11-20",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:13:30+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-seongbuk-sbc::cb7a9e975b",
-      "sid": "sel-seongbuk-sbc",
-      "region": "서울",
-      "district": "성북구",
-      "source": "성북문화재단",
-      "title": "성북문화재단 기간직 채용 공고(기간직(보조금_개관시간연장), 다급상당, 사서)",
+      "district": "고양시",
+      "source": "통합포털(잡코리아)",
+      "title": "[일산두산위브더제니스입주자대표회의] 일산두산위브더제니스 아파트 커뮤니티 도서관 사서 모집(탄현동)",
       "jobType": "계약",
-      "posted": "2026-11-18",
-      "deadline": "2026-12-03",
-      "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35776&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
-      "firstSeen": "2026-11-19",
+      "posted": "2026-11-20",
+      "deadline": "2026-12-20",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50402348",
+      "firstSeen": "2026-11-28",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:02:56+09:00",
-      "isNew": false
-    },
-    {
-      "id": "sel-seongbuk-sbc::7ba00035ba",
-      "sid": "sel-seongbuk-sbc",
-      "region": "서울",
-      "district": "성북구",
-      "source": "성북문화재단",
-      "title": "성북문화재단 기간직 채용 공고(기간직, 나급, 사서)",
-      "jobType": "계약",
-      "posted": "2026-11-18",
-      "deadline": "2026-12-03",
-      "url": "https://www.sbculture.or.kr/culture/bbs/BMSR00034/view.do?boardId=35775&menuNo=500348&searchCnd=1&searchWrd=%EC%B1%84%EC%9A%A9",
-      "firstSeen": "2026-11-19",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:02:58+09:00",
-      "isNew": false
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "isNew": true
     },
     {
       "id": "sel-eunpyeong-eplib::ffe38285c8",
@@ -856,11 +1058,17 @@
       "title": "2026년 구산동도서관마을 계약직 사서 공개채용",
       "jobType": "계약",
       "posted": "2026-11-18",
-      "deadline": null,
+      "deadline": "2026-12-03",
       "url": "https://www.eplib.or.kr/intro/menu/10041/bbs/20002/bbsPostDetail.do?bbsPostIdx=237305&manageCd=ALL",
       "firstSeen": "2026-11-19",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:03:55+09:00",
+      "scrapedAt": "2026-11-28T05:04:00+09:00",
+      "aliases": [
+        {
+          "source": "통합포털(잡코리아)",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50393869"
+        }
+      ],
       "isNew": false
     },
     {
@@ -876,23 +1084,7 @@
       "url": "https://www.osanlibrary.go.kr/intro/menu/10050/bbs/20001/bbsPostDetail.do?postIdx=543177&manageCd=ALL",
       "firstSeen": "2026-11-19",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:18:29+09:00",
-      "isNew": false
-    },
-    {
-      "id": "ggi-gcheon-lib::1ef5af569c",
-      "sid": "ggi-gcheon-lib",
-      "region": "경기",
-      "district": "과천시",
-      "source": "과천시 정보과학도서관(시 직영)",
-      "title": "2027년 상반기 과천시 정보과학도서관 기간제근로자 채용 공고",
-      "jobType": "계약",
-      "posted": "2026-11-18",
-      "deadline": "2026-11-27",
-      "url": "https://www.gclib.go.kr/lib/menu/10099/bbs/20001/bbsPostDetail.do?postIdx=24306&manageCd=ALL",
-      "firstSeen": "2026-11-19",
-      "status": "open",
-      "scrapedAt": "2026-11-27T05:19:44+09:00",
+      "scrapedAt": "2026-11-28T05:19:18+09:00",
       "isNew": false
     },
     {
@@ -908,24 +1100,24 @@
       "url": "https://lib.gjcity.go.kr/lay1/bbs/S1T82C3521/H/1/view.do?article_seq=66087&child=&cpage=&rows=&condition=&keyword=",
       "firstSeen": "2026-11-19",
       "status": "upcoming",
-      "scrapedAt": "2026-11-27T05:21:19+09:00",
+      "scrapedAt": "2026-11-28T05:22:13+09:00",
       "isNew": false
     },
     {
-      "id": "ggi-gjcity-lib::94fd56dbce",
-      "sid": "ggi-gjcity-lib",
-      "region": "경기",
-      "district": "광주시",
-      "source": "광주시립도서관(중앙도서관 등)",
-      "title": "2027년 광남도서관 자료실 업무 보조 기간제근로자 채용 공고",
+      "id": "portal-jobkorea::cc31f671f9",
+      "sid": "portal-jobkorea",
+      "region": "서울",
+      "district": "마포구",
+      "source": "통합포털(잡코리아)",
+      "title": "[㈜키스템프그룹] KBS미디어 메타데이터 등록/운영 채용[상암/신입가능]",
       "jobType": "계약",
-      "posted": "2026-11-18",
-      "deadline": "2026-11-27",
-      "url": "https://lib.gjcity.go.kr/lay1/bbs/S1T82C3521/H/1/view.do?article_seq=66083&child=&cpage=&rows=&condition=&keyword=",
-      "firstSeen": "2026-11-19",
+      "posted": "2026-11-16",
+      "deadline": "2026-11-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50374244",
+      "firstSeen": "2026-11-28",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:21:22+09:00",
-      "isNew": false
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "isNew": true
     },
     {
       "id": "ggi-edu-goe::8b401e7fde",
@@ -940,7 +1132,7 @@
       "url": "https://lib.goe.go.kr/hs/board/view.do?menu_idx=40&manage_idx=1&board_idx=205040&viewPage=1&category1=",
       "firstSeen": "2026-11-13",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:12:08+09:00",
+      "scrapedAt": "2026-11-28T05:12:21+09:00",
       "isNew": false
     },
     {
@@ -956,7 +1148,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/ot9d31rcf5gqdtw7?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-11",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:16:51+09:00",
+      "scrapedAt": "2026-11-28T05:17:11+09:00",
       "isNew": false
     },
     {
@@ -972,7 +1164,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/aermfsr4cdzbryub?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:16:57+09:00",
+      "scrapedAt": "2026-11-28T05:17:20+09:00",
       "isNew": false
     },
     {
@@ -988,7 +1180,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/9i40vah1gu3ry3b4?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:17:06+09:00",
+      "scrapedAt": "2026-11-28T05:17:26+09:00",
       "isNew": false
     },
     {
@@ -1004,7 +1196,7 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/9f5ngqzdwadimlq9?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:17:12+09:00",
+      "scrapedAt": "2026-11-28T05:17:36+09:00",
       "isNew": false
     },
     {
@@ -1020,24 +1212,56 @@
       "url": "https://www.gunpolib.go.kr/#/bbs/notice/739ohdmal287d7dw?offset=0&max=20&all=%EC%B1%84%EC%9A%A9",
       "firstSeen": "2026-11-10",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:17:18+09:00",
+      "scrapedAt": "2026-11-28T05:17:43+09:00",
       "isNew": false
     },
     {
-      "id": "sel-seongdong-sdfac::d991e210aa",
-      "sid": "sel-seongdong-sdfac",
+      "id": "portal-jobkorea::7368a82845",
+      "sid": "portal-jobkorea",
       "region": "서울",
-      "district": "성동구",
-      "source": "성동문화재단",
-      "title": "2026-54-1 경력 (재)성동문화재단 직원 채용 공고(기간제계약직/육아대체/사서) (기간제계약직/육아대체/사서)",
-      "jobType": "계약",
-      "posted": null,
-      "deadline": null,
-      "url": "https://www.sdfac.or.kr/kor/recruit/app/empmn_view.do?pblanc_no=2026-54&realm_no=1",
-      "firstSeen": "2026-11-25",
+      "district": "금천구",
+      "source": "통합포털(잡코리아)",
+      "title": "[㈜데이터클립] [채용] (주)데이터클립 도서관DB구축 사업관리자 및 정규직 모집",
+      "jobType": "정규",
+      "posted": "2026-11-06",
+      "deadline": "2026-12-06",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50317345",
+      "firstSeen": "2026-11-28",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:02:44+09:00",
-      "isNew": false
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "isNew": true
+    },
+    {
+      "id": "portal-jobkorea::2b332c6cc5",
+      "sid": "portal-jobkorea",
+      "region": "서울",
+      "district": "종로구",
+      "source": "통합포털(잡코리아)",
+      "title": "[㈜키스템프그룹] [동아일보/신입가능] 출판사진팀 DB관리/사무 채용",
+      "jobType": "계약",
+      "posted": "2026-11-05",
+      "deadline": "2026-11-28",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50314597",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "isNew": true
+    },
+    {
+      "id": "portal-jobkorea::94a394d9bf",
+      "sid": "portal-jobkorea",
+      "region": "서울",
+      "district": "서대문구",
+      "source": "통합포털(잡코리아)",
+      "title": "[㈜키스템프그룹] [충정로/신입가능] 동아일보 출판사진팀 DB관리/사무 채용",
+      "jobType": "계약",
+      "posted": "2026-11-05",
+      "deadline": "2026-12-28",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50314375",
+      "firstSeen": "2026-11-28",
+      "status": "open",
+      "scrapedAt": "2026-11-28T05:25:53+09:00",
+      "isNew": true
     },
     {
       "id": "sel-portal-saramin::6818413d3a",
@@ -1052,26 +1276,26 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55682832",
       "firstSeen": "2026-11-27",
       "status": "open",
-      "scrapedAt": "2026-11-27T05:05:00+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:05:10+09:00",
+      "isNew": false
     },
     {
-      "sid": "records-saramin",
+      "sid": "records-cleaneye",
       "region": "기록관리",
-      "district": "경기",
-      "source": "명지대학교",
-      "via": "사람인",
-      "title": "[명지대학교] 기록물관리 전문요원(계약직) 모집",
+      "district": "서울",
+      "source": "성북문화재단",
+      "via": "클린아이 잡플러스",
+      "title": "(재공고)(제26-29호)성북문화재단 기간직 채용 공고(기간직, 휴직대체, 나급, 기록물관리자)",
       "jobType": "계약",
-      "spec": true,
-      "posted": null,
-      "deadline": "2026-12-14",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55647935",
+      "spec": false,
+      "posted": "2026-11-24",
+      "deadline": "2026-12-03",
+      "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000276&entSeq=000032",
       "status": "open",
-      "id": "records-saramin::f535ba559e",
-      "firstSeen": "2026-11-24",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
-      "isNew": false
+      "id": "records-cleaneye::022e3f7212",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
     },
     {
       "sid": "records-saramin",
@@ -1088,7 +1312,25 @@
       "status": "open",
       "id": "records-saramin::437aa8a535",
       "firstSeen": "2026-11-17",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": false
+    },
+    {
+      "sid": "records-saramin",
+      "region": "기록관리",
+      "district": "경기",
+      "source": "명지대학교",
+      "via": "사람인",
+      "title": "[명지대학교] 기록물관리 전문요원(계약직) 모집",
+      "jobType": "계약",
+      "spec": true,
+      "posted": null,
+      "deadline": "2026-12-14",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55647935",
+      "status": "open",
+      "id": "records-saramin::f535ba559e",
+      "firstSeen": "2026-11-24",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
       "isNew": false
     },
     {
@@ -1106,8 +1348,26 @@
       "status": "open",
       "id": "records-saramin::8541deb770",
       "firstSeen": "2026-11-03",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
       "isNew": false
+    },
+    {
+      "sid": "records-saramin",
+      "region": "기록관리",
+      "district": "경기",
+      "source": "아주대학교",
+      "via": "사람인",
+      "title": "(아주대)학술정보팀 계약직(기록물 관리 전문요원)채용 (~12.13)",
+      "jobType": "계약",
+      "spec": true,
+      "posted": null,
+      "deadline": "2026-12-13",
+      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55690330",
+      "status": "open",
+      "id": "records-saramin::f37282efc0",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
     },
     {
       "sid": "records-saramin",
@@ -1124,8 +1384,8 @@
       "status": "open",
       "id": "records-saramin::d3a5faa8d9",
       "firstSeen": "2026-11-27",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": false
     },
     {
       "sid": "records-saramin",
@@ -1142,8 +1402,8 @@
       "status": "open",
       "id": "records-saramin::38b91739ec",
       "firstSeen": "2026-11-27",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": false
     },
     {
       "sid": "records-saramin",
@@ -1155,13 +1415,13 @@
       "jobType": "계약",
       "spec": false,
       "posted": null,
-      "deadline": null,
+      "deadline": "2026-12-01",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=55666342",
-      "status": "upcoming",
+      "status": "open",
       "id": "records-saramin::f639878302",
       "firstSeen": "2026-11-27",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": false
     },
     {
       "sid": "records-saramin",
@@ -1178,7 +1438,7 @@
       "status": "open",
       "id": "records-saramin::36989c1f49",
       "firstSeen": "2026-11-14",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
       "isNew": false
     },
     {
@@ -1196,8 +1456,8 @@
       "status": "open",
       "id": "records-saramin::3eac6307df",
       "firstSeen": "2026-11-27",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": false
     },
     {
       "sid": "records-saramin",
@@ -1214,7 +1474,7 @@
       "status": "open",
       "id": "records-saramin::93c85d4843",
       "firstSeen": "2026-11-19",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
       "isNew": false
     },
     {
@@ -1232,8 +1492,8 @@
       "status": "open",
       "id": "records-saramin::84369a5310",
       "firstSeen": "2026-11-27",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
-      "isNew": true
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": false
     },
     {
       "sid": "records-saramin",
@@ -1250,7 +1510,169 @@
       "status": "open",
       "id": "records-saramin::47149216d2",
       "firstSeen": "2026-11-27",
-      "scrapedAt": "2026-11-27T05:24:50+09:00",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": false
+    },
+    {
+      "sid": "records-jobkorea",
+      "region": "기록관리",
+      "district": "경기",
+      "source": "아이언마운틴코리아(유)",
+      "via": "잡코리아",
+      "title": "양지 문서고 기록물 관리 및 물류 운영 직원 채용",
+      "jobType": "계약",
+      "spec": false,
+      "posted": "2026-09-29",
+      "deadline": "2026-11-28",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50067368",
+      "status": "open",
+      "id": "records-jobkorea::7183cb601a",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
+    },
+    {
+      "sid": "records-jobkorea",
+      "region": "기록관리",
+      "district": "서울",
+      "source": "서고담",
+      "via": "잡코리아",
+      "title": "탄천물재생센터 비전자기록물 DB구축",
+      "jobType": "계약",
+      "spec": false,
+      "posted": "2026-11-06",
+      "deadline": "2026-12-06",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50316628",
+      "status": "open",
+      "id": "records-jobkorea::6530a357d5",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
+    },
+    {
+      "sid": "records-jobkorea",
+      "region": "기록관리",
+      "district": "경기",
+      "source": "서고담",
+      "via": "잡코리아",
+      "title": "탄천물재생센터 비전자기록물 DB구축-보정",
+      "jobType": "계약",
+      "spec": false,
+      "posted": "2026-11-10",
+      "deadline": "2026-12-10",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50337388",
+      "status": "open",
+      "id": "records-jobkorea::177d98435c",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
+    },
+    {
+      "sid": "records-jobkorea",
+      "region": "기록관리",
+      "district": "서울",
+      "source": "커리어넷",
+      "via": "잡코리아",
+      "title": "[성북문화재단] 직원-기록물관리자(기간직,휴직대체) 채용 공고",
+      "jobType": "계약",
+      "spec": false,
+      "posted": "2026-11-04",
+      "deadline": "2026-12-03",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50304567",
+      "status": "open",
+      "id": "records-jobkorea::61343fbbce",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
+    },
+    {
+      "sid": "records-jobkorea",
+      "region": "기록관리",
+      "district": "서울",
+      "source": "한국방송공사",
+      "via": "잡코리아",
+      "title": "[KBS] 디지털아카이브부 메타데이터 (2명) - 11.24(화) 10시 마감",
+      "jobType": "계약",
+      "spec": false,
+      "posted": null,
+      "deadline": null,
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50347753",
+      "status": "open",
+      "id": "records-jobkorea::c4ecaa03ba",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
+    },
+    {
+      "sid": "records-jobkorea",
+      "region": "기록관리",
+      "district": "경기",
+      "source": "㈜엠제이플렉스",
+      "via": "잡코리아",
+      "title": "[카카오엔터/대기업] 멜론 음악DB 운영 / 음원·권리·메타데이터 관리",
+      "jobType": "계약",
+      "spec": false,
+      "posted": "2026-11-25",
+      "deadline": "2026-12-02",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50429802",
+      "status": "open",
+      "id": "records-jobkorea::d2a969ceb0",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
+    },
+    {
+      "sid": "records-jobkorea",
+      "region": "기록관리",
+      "district": "서울",
+      "source": "㈜키스템프그룹",
+      "via": "잡코리아",
+      "title": "KBS미디어 메타데이터 등록/운영 채용[상암/신입가능]",
+      "jobType": "계약",
+      "spec": false,
+      "posted": "2026-11-16",
+      "deadline": "2026-11-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50374244",
+      "status": "open",
+      "id": "records-jobkorea::cc31f671f9",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
+    },
+    {
+      "sid": "records-jobkorea",
+      "region": "기록관리",
+      "district": "서울",
+      "source": "인트로맨㈜",
+      "via": "잡코리아",
+      "title": "[상암/평일] KBS미디어 디지털서비스 1부 콘텐츠 메타데이터 등록 및 운영",
+      "jobType": "계약",
+      "spec": false,
+      "posted": "2026-11-25",
+      "deadline": "2026-12-25",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50430100",
+      "status": "open",
+      "id": "records-jobkorea::e1f5cf9158",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
+      "isNew": true
+    },
+    {
+      "sid": "records-jobkorea",
+      "region": "기록관리",
+      "district": "서울",
+      "source": "㈜키스템프그룹",
+      "via": "잡코리아",
+      "title": "KBS미디어 디지털서비스1부 웹운영(메타데이터/인코딩)[신입가능]",
+      "jobType": "계약",
+      "spec": false,
+      "posted": "2026-11-16",
+      "deadline": "2026-11-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50374944",
+      "status": "open",
+      "id": "records-jobkorea::1295a85b9e",
+      "firstSeen": "2026-11-28",
+      "scrapedAt": "2026-11-28T05:26:52+09:00",
       "isNew": true
     }
   ]
