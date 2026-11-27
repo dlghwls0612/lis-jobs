@@ -118,3 +118,76 @@ def crawl_alio(settings, keywords=None, include_recent_closed=True):
                 })
 
     return jobs
+
+
+_LIB_FACILITY_EXCLUDES = ("미화", "청소", "경비", "방호", "조리", "취사", "운전", "셔틀", "주차", "시설관리")
+_SASEO_FALSE_RE = re.compile(r"(?:공|회|구|복|인|감|행|입|심|조|수|문)사서|사서(?:비스|울|함|류|지)")
+
+
+def crawl_alio_library(lib_settings, rec_settings, keywords=None):
+    """잡알리오에서 서울·경기 공공기관 도서관·사서 채용공고 수집(도서관 탭 공유용)."""
+    from .. import classify as lib_classify
+    from .. import parsers as lib_parsers
+
+    if keywords is None:
+        keywords = ["사서", "도서관"]
+
+    jobs = []
+    seen_ids = set()
+    with httpx.Client(headers=HEADERS, timeout=12.0, follow_redirects=True) as client:
+        for kw in keywords:
+            try:
+                res = client.get(LIST_URL, params={"keyword": kw})
+                if res.status_code != 200:
+                    continue
+            except Exception as e:
+                print(f"[ALIO-도서관] 검색어 '{kw}' 호출 실패: {e}")
+                continue
+            soup = BeautifulSoup(res.text, "html.parser")
+            table = soup.find("table", class_="type_03")
+            if not table:
+                continue
+            for r in table.find_all("tr")[1:]:
+                tds = r.find_all("td")
+                if len(tds) < 8:
+                    continue
+                cols = [td.get_text(strip=True) for td in tds]
+                title = cols[2]
+                a_tag = tds[2].find("a", href=True) or r.find("a", href=True)
+                href = a_tag["href"] if a_tag else ""
+                m = re.search(r"idx=(\d+)", href)
+                item_id = m.group(1) if m else href
+                if not item_id or item_id in seen_ids:
+                    continue
+                seen_ids.add(item_id)
+
+                org = cols[3] if len(cols) > 3 else ""
+                location = cols[4] if len(cols) > 4 else ""
+                raw_deadline = cols[7] if len(cols) > 7 else ""
+                state_text = cols[8] if len(cols) > 8 else ""
+
+                if "마감" in state_text:
+                    continue
+                if lib_classify.is_result_post(title, lib_settings):
+                    continue
+                if lib_parsers.has_exclude_word(title) or any(w in title for w in _LIB_FACILITY_EXCLUDES):
+                    continue
+                if not lib_classify.is_library_relevant(_SASEO_FALSE_RE.sub(" ", title), lib_settings):
+                    continue
+                region = classify.detect_region(title, location, org, rec_settings)
+                if not region:
+                    continue
+                deadline = parsers.normalize_date(raw_deadline)
+                if deadline and lib_classify.is_expired(deadline):
+                    continue
+
+                jobs.append({
+                    "region": region,
+                    "district": "전역·통합",
+                    "source": "통합포털(잡알리오)",
+                    "title": f"[{org}] {title}" if org and org not in title else title,
+                    "posted": None,
+                    "deadline": deadline,
+                    "url": urllib.parse.urljoin(BASE_URL, href),
+                })
+    return jobs

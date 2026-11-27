@@ -127,3 +127,81 @@ def crawl_gojobs(settings, keywords=None, max_pages=2, delay=1.0):
                     break
 
     return jobs
+
+
+_LIB_FACILITY_EXCLUDES = ("미화", "청소", "경비", "방호", "조리", "취사", "운전", "셔틀", "주차", "시설관리")
+_SASEO_FALSE_RE = re.compile(r"(?:공|회|구|복|인|감|행|입|심|조|수|문)사서|사서(?:비스|울|함|류|지)")
+_METRO_RE = re.compile(r"(?:서울|부산|대구|인천|광주|대전|울산|세종|제주|통합)?(?:특별자치|특별|광역)[시도]|경기도?")
+_DISTRICT_RE = re.compile(r"([가-힣]{2,3}[구시군])")
+
+
+def crawl_gojobs_library(lib_settings, rec_settings, keywords=None, max_pages=2, delay=0.8):
+    """나라일터에서 서울·경기 도서관·사서(공무원·임기제·기간제) 채용공고 수집(도서관 탭 공유용)."""
+    from .. import classify as lib_classify
+    from .. import parsers as lib_parsers
+
+    if keywords is None:
+        keywords = ["사서", "도서관"]
+
+    jobs = []
+    seen_ids = set()
+    with httpx.Client(headers=HEADERS, timeout=12.0, follow_redirects=True) as client:
+        for kw in keywords:
+            for page in range(1, max_pages + 1):
+                try:
+                    res = client.get(LIST_URL, params={**MENU, "searchKeyword": kw, "pageIndex": page})
+                    if res.status_code != 200:
+                        break
+                except Exception as e:
+                    print(f"[나라일터-도서관] 검색어 '{kw}' {page}쪽 호출 실패: {e}")
+                    break
+                rows = _list_rows(res.text)
+                time.sleep(delay)
+                if not rows:
+                    break
+                for jobsecode, item_id, title, org, posted, deadline in rows:
+                    if item_id in seen_ids:
+                        continue
+                    seen_ids.add(item_id)
+                    if classify.is_expired(deadline):
+                        continue
+                    if lib_classify.is_result_post(title, lib_settings) or any(w in title for w in _RESULT_WORDS):
+                        continue
+                    if lib_parsers.has_exclude_word(title) or any(w in title for w in _LIB_FACILITY_EXCLUDES):
+                        continue
+                    if not lib_classify.is_library_relevant(_SASEO_FALSE_RE.sub(" ", title), lib_settings):
+                        continue
+
+                    url = f"{VIEW_URL}?menuNo=401&empmnsn={item_id}&searchJobsecode={jobsecode}&selMenuNo=400"
+                    try:
+                        dres = client.get(url)
+                        dsoup = BeautifulSoup(dres.text, "html.parser")
+                    except Exception as e:
+                        print(f"[나라일터-도서관] 상세 {item_id} 호출 실패: {e}")
+                        continue
+                    time.sleep(delay)
+                    area = _cell(dsoup, "근무지역")
+                    start = parsers.normalize_date(_cell(dsoup, "접수시작일"))
+                    deadline = parsers.normalize_date(_cell(dsoup, "접수마감일")) or deadline
+                    if deadline and lib_classify.is_expired(deadline):
+                        continue
+
+                    region = (classify.detect_region(area, "", "", rec_settings)
+                              or (None if area else classify.detect_region(title, "", org, rec_settings)))
+                    if not region:
+                        continue
+
+                    from .cleaneye import _extract_district
+                    district = _extract_district(f"{area} {org}", title, region)
+                    jobs.append({
+                        "region": region,
+                        "district": district,
+                        "source": "통합포털(나라일터)",
+                        "title": f"[{org}] {title}" if org and org not in title else title,
+                        "posted": start or posted,
+                        "deadline": deadline,
+                        "url": url,
+                    })
+                if all(classify.is_expired(r[5]) for r in rows):
+                    break
+    return jobs

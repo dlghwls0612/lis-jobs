@@ -92,9 +92,15 @@ def detect_region(title, body="", organization="", settings=None):
         if kw in full_text:
             return "서울"
 
-    # 명시적 경기 검사
+    # 명시적 경기 검사 ('광주'는 광주광역시·광주전남·광주교육대 오탐을 막고 경기도 광주시만 허용)
     gyeonggi_kws = regions_map.get("경기", ["경기"])
+    gwangju_metro = any(x in full_text for x in ("광주광역시", "전남광주", "광주전남", "광주교육대", "광주광산"))
     for kw in gyeonggi_kws:
+        if kw == "광주":
+            if gwangju_metro:
+                continue
+            if "광주시" not in full_text and "경기" not in full_text:
+                continue
         if kw in full_text:
             return "경기"
 

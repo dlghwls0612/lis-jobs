@@ -431,12 +431,60 @@ def crawl(cfg, limit=None, only=None, details=True, out=OUT):
                             "prev": prev_live, "cands": len(cands)})
         time.sleep(delay)
 
-    # ── 기록관리 탭(옛 archivescrawler). 세 곳 모두 httpx 라 1분 안팎 —
+    # ── 공용 원자료(클린아이 잡플러스 서울·경기 목록) 1회 조회 ──
+    rec_settings = records.load_settings()
+    do_lib_portals = not limit and only != records.REGION
+    shared_portals = records.fetch_shared() if (do_records or do_lib_portals) else {}
+
+    # ── 도서관 탭 공유 통합 포털(클린아이 잡플러스·잡코리아·잡알리오·나라일터) ──
+    if do_lib_portals:
+        portal_results = records.collect_library_portals(settings, rec_settings, shared=shared_portals, only=only)
+        if portal_results:
+            print("\n=== 도서관 공유 통합 포털 수집 ===")
+        for sid, name, got in portal_results:
+            if got is None:
+                health.append((sid, "FETCH_FAIL", "수집 중 예외"))
+                failures.append({"id": sid, "name": name, "reason": "fetch"})
+                continue
+            kept = 0
+            for c in got:
+                canon = parsers.canon_url(c["url"])
+                first_seen = prev_first.get(canon) or today_str
+                dl = c.get("deadline")
+                if dl is None:
+                    dl = parsers.deadline_from_title(c["title"], c.get("posted"), _now().year)
+                if classify.is_expired(dl):
+                    continue
+                if dl is None and classify.is_safety_expired(c.get("posted") or first_seen, settings):
+                    continue
+                disp_title = parsers.clean_display_title(c["title"])
+                jobs.append({
+                    "id": _mk_id(sid, canon),
+                    "sid": sid,
+                    "region": c["region"],
+                    "district": c.get("district") or "전역·통합",
+                    "source": c.get("source") or name,
+                    "title": disp_title,
+                    "jobType": classify.tag_jobtype(c["title"], settings),
+                    "posted": c.get("posted"),
+                    "deadline": dl,
+                    "url": c["url"],
+                    "firstSeen": first_seen,
+                    "status": "open",
+                    "scrapedAt": _now().isoformat(timespec="seconds"),
+                })
+                kept += 1
+            health.append((sid, "OK" if kept else "ZERO", f"kept={kept}"))
+            print(f"  {'✓' if kept else '·'} [도서관·통합] {name}: {kept}건")
+            if kept == 0 and any(_live(p) for p in prev_by_sid.get(sid, [])):
+                failures.append({"id": sid, "name": name, "reason": "empty"})
+
+    # ── 기록관리 탭(옛 archivescrawler + 잡플러스·잡코리아). 모두 httpx 라 빠르다 —
     # 도서관 쪽이 시간상한에 걸렸더라도 돌린다(기록관리 공고가 그날 통째로 비지 않게)
     rec_count = None
     if do_records:
         print("\n=== 기록관리 수집 ===")
-        for sid, name, got in records.collect(records.load_settings()):
+        for sid, name, got in records.collect(rec_settings, shared=shared_portals):
             if got is None:
                 health.append((sid, "FETCH_FAIL", "수집 중 예외"))
                 failures.append({"id": sid, "name": name, "reason": "fetch"})

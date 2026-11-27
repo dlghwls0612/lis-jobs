@@ -85,6 +85,8 @@ settings:
     - 식음료
     - 카페
     - 조리
+    - 파쇄
+    - 문서파쇄
 
   # 지역 판별 키워드 (전국 공고 중 서울/경기만 선별)
   regions_include:
@@ -225,4 +227,28 @@ sources:
       - 기록물
       - 아키비스트
     engine: httpx        # 목록이 서버에서 그려져 httpx 로 충분(2026-10-24 실측)
+    enabled: true
+
+  - id: cleaneye-records
+    name: 클린아이 잡플러스
+    type: public_api_or_search
+    category: 지방공기업·출연기관
+    url: https://job.cleaneye.go.kr/user/ypRecruitment.do
+    engine: httpx        # JSON API(/user/selectYpRecruitment.do), 도서관 탭과 1회 조회 공유(2026-11-27)
+    enabled: true
+
+  - id: jobkorea-records
+    name: 잡코리아
+    type: public_api_or_search
+    category: 문화재단·공공·민간
+    url: https://www.jobkorea.co.kr/Search/
+    keywords:            # 실제 검색어는 crawler/records/jobkorea.py 의 기본값
+      - 기록물관리
+      - 기록물
+      - 기록연구
+      - 아키비스트
+      - 기록관리전문요원
+      - 디지털아카이브
+      - 메타데이터
+    engine: httpx        # CardJob 파싱 + 통과 공고만 상세 JSON-LD 마감일 조회(2026-11-27)
     enabled: true
